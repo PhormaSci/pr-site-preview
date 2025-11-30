@@ -1,9 +1,0 @@
-{
-  "pr_number": 1,
-  "branch": "refactor/markdown-content-cards",
-  "branch_slug": "refactor-markdown-content-cards",
-  "timestamp": "2025-11-30 14:14:28 UTC",
-  "commit": "24c4b42e4e687ee53a99137228751e88c7c00d30",
-  "pr_title": "Refactor services and trainees to use markdown-based content system\n",
-  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/1"
-}
