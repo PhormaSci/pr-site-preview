@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phorma Scientific - Transformando la complejidad científica en sistemas de producción. Rigor. Rendimiento. Arquitectura.">
+  <title>Phorma Scientific - Estructura sobre el Caos</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
+  <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../assets/logo.svg" alt="Phorma Scientific Logo">
+        PHORMA
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          ◐
+        </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        MENÚ
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="active">INICIO</a></li>
+        <li><a href="mission.html">MISIÓN</a></li>
+        <li><a href="services.html">SERVICIOS</a></li>
+        <li><a href="trainees.html">CAPACITACIÓN</a></li>
+        <li><a href="contact.html">CONTACTO</a></li>
+        <li class="lang-switch"><a href="../index.html">EN</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <img src="../assets/logo.svg" alt="Phorma Scientific" class="hero-logo">
+      <h1>Rigor. Rendimiento. Arquitectura.</h1>
+      <p class="hero-subheading">Transformamos la complejidad científica en sistemas de producción.</p>
+      <a href="#audit" class="btn btn-primary">Solicitar Auditoría de Sistema</a>
+    </div>
+  </section>
+
+  <!-- The Challenge -->
+  <section class="section border-bottom">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2 class="text-mono">El Desafío</h2>
+          <p class="text-muted">Inmadurez</p>
+        </div>
+        <div>
+          <p>El código científico ad-hoc suele ser lento, incumplir normativas y ser difícil de mantener.</p>
+          <p>Los equipos de investigación construyen prototipos que funcionan en notebooks de Jupyter pero fallan bajo restricciones de producción. El rendimiento se degrada. La exactitud numérica se vuelve cuestionable. La deuda técnica se acumula.</p>
+          <p>La brecha entre investigación y despliegue se amplía, y la innovación se estanca en la etapa de prototipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Solution -->
+  <section class="section border-bottom">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2 class="text-mono">La Solución</h2>
+          <p class="text-muted">Forma</p>
+        </div>
+        <div>
+          <p>Implementamos exactitud computacional verificable, velocidad operacional y estabilidad arquitectónica.</p>
+          <p>Nuestro enfoque cierra la brecha entre la innovación en investigación y la infraestructura de nivel empresarial. Establecemos estándares de reproducibilidad, optimizamos el rendimiento a nivel algorítmico y de sistemas, y arquitecturamos soluciones que escalan.</p>
+          <p>Cada sistema que construimos está probado, benchmarkeado y listo para producción.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Service: System Audit -->
+  <section class="section" id="audit">
+    <div class="container">
+      <div class="highlight-box">
+        <div class="grid grid-2">
+          <div>
+            <h3 class="text-mono mb-sm">Auditoría de Sistema y Arquitectura</h3>
+            <p class="text-muted text-upper" style="font-size: 0.875rem; margin-bottom: 1rem;">Servicio de Entrada</p>
+          </div>
+          <div>
+            <p><strong>Objetivo:</strong> Identificar deuda estructural, cuellos de botella de rendimiento y brechas de cumplimiento en su infraestructura de computación científica.</p>
+            <p><strong>Entregable:</strong> Hoja de ruta de modernización arquitectónica con ítems de acción priorizados, benchmarks de rendimiento y estrategia de refactorización.</p>
+            <p style="margin-top: 1.5rem;">
+              <a href="contact.html" class="btn">Solicitar Auditoría</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Authority -->
+  <!-- HIDDEN: Tier-1 Organizations section
+  <section class="section border-top">
+    <div class="container text-center">
+      <h4 class="text-mono text-muted mb-lg">Confianza de Organizaciones Tier-1</h4>
+      <div class="authority-grid">
+        <div class="authority-logo" style="width: 120px; height: 60px; border: 1px solid #E5E5E5; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; color: #999;">JPM</div>
+        <div class="authority-logo" style="width: 120px; height: 60px; border: 1px solid #E5E5E5; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; color: #999;">MERCADO LIBRE</div>
+        <div class="authority-logo" style="width: 120px; height: 60px; border: 1px solid #E5E5E5; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; color: #999;">SIMCORP</div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4 class="text-mono mb-sm">Contacto</h4>
+          <p class="footer-text">info@phorma.sh</p>
+        </div>
+        <div>
+          <p class="footer-text">&copy; 2025 Phorma Scientific</p>
+          <p class="footer-text">Estructura sobre el Caos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JavaScript -->
+  <script src="../js/main.js"></script>
+</body>
+</html>

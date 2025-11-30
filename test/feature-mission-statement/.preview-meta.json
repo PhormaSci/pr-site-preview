@@ -1,0 +1,9 @@
+{
+  "pr_number": 4,
+  "branch": "feature/mission-statement",
+  "branch_slug": "feature-mission-statement",
+  "timestamp": "2025-11-30 14:58:59 UTC",
+  "commit": "2298173867f651e977664264eccefc5d96cb22ad",
+  "pr_title": "feat: Add mission statement page in English and Spanish\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/4"
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Misión de Phorma Scientific - Transformando prototipos científicos en sistemas de producción para deep tech latinoamericano.">
+  <title>Misión - Phorma Scientific</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
+  <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../assets/logo.svg" alt="Phorma Scientific Logo">
+        PHORMA
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          ◐
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          MENÚ
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="mission.html" class="active">MISIÓN</a></li>
+          <li><a href="services.html">SERVICIOS</a></li>
+          <li><a href="trainees.html">CAPACITACIÓN</a></li>
+          <li><a href="contact.html">CONTACTO</a></li>
+          <li class="lang-switch"><a href="../mission.html">EN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>La Trampa del Prototipo</h1>
+      <p class="hero-subheading">Las startups científicas rara vez fracasan por la ciencia.<br>Fracasan porque su código es un prototipo no escalable que carece de estructura y arquitectura profesional.</p>
+    </div>
+  </section>
+
+  <!-- The Challenge: Academic Code vs. Production Code -->
+  <section class="section border-bottom">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2 class="text-mono">La Realidad</h2>
+          <p class="text-muted text-upper">Código Académico ≠ Código de Producción</p>
+        </div>
+        <div>
+          <p>Los investigadores principales y fundadores académicos suelen descubrir una brecha crítica demasiado tarde: el código que publicó su artículo innovador es fundamentalmente inadecuado para un producto comercial.</p>
+          <p><strong>El Código Académico</strong> está optimizado para una única ejecución exitosa. Demuestra factibilidad. Valida el "camino feliz". Genera citaciones.</p>
+          <p><strong>El Código de Producción</strong> está optimizado para escala, seguridad y resiliencia. Maneja casos extremos. Procesa terabytes. Pasa la due diligence técnica de fondos de Venture Capital.</p>
+          <p>La distinción no es obvia hasta que se vuelve costosa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Hidden Cost -->
+  <section class="section border-bottom">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2 class="text-mono">El Costo Oculto</h2>
+          <p class="text-muted text-upper">Deuda Técnica a Escala</p>
+        </div>
+        <div>
+          <p>Sin re-arquitecturar, los equipos encuentran fallas críticas en los peores momentos posibles:</p>
+          <ul class="styled-list">
+            <li><strong>Durante la recaudación de fondos:</strong> Los VCs internacionales realizan due diligence técnica rigurosa. El código que "funciona en mi máquina" genera señales de alarma sobre riesgo de ejecución.</li>
+            <li><strong>A escala:</strong> Algoritmos diseñados para conjuntos de datos pequeños encuentran el cuello de botella de un solo núcleo. Simulaciones de una semana se convierten en pesadillas de meses.</li>
+            <li><strong>En producción:</strong> Rutas de archivos codificadas, manejo de errores ausente y falta de reproducibilidad crean caos operacional.</li>
+          </ul>
+          <p>Estas no son fallas de investigación. Son fallas de ingeniería—prevenibles con la experiencia adecuada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Approach: Three Concrete Examples -->
+  <section class="section border-bottom">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2 class="text-mono">Cómo lo Hacemos</h2>
+        <p class="hero-subheading">Transformaciones concretas. Resultados medibles.</p>
+      </div>
+
+      <!-- Example 1: From Script to System -->
+      <div class="highlight-box mb-lg">
+        <div class="grid grid-2">
+          <div>
+            <h3 class="text-mono mb-sm">De Script a Sistema</h3>
+            <p class="text-muted text-upper" style="font-size: 0.875rem;">Refactorización para Mantenibilidad</p>
+          </div>
+          <div>
+            <p><strong>El Problema:</strong> Un script monolítico de 5,000 líneas que se ejecuta exclusivamente en la laptop de un estudiante. Sin documentación. Sin tests. Sin disciplina de control de versiones.</p>
+            <p><strong>Nuestra Solución:</strong> Descomponemos el código espagueti en bibliotecas modulares y documentadas con tests unitarios automatizados. Cada función tiene una única responsabilidad. Cada módulo tiene una interfaz clara. Cada commit pasa CI/CD.</p>
+            <p><strong>El Resultado:</strong> El código se vuelve transferible, extensible y listo para auditoría. Nuevos desarrolladores se incorporan en días, no meses.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example 2: Infinite Scale -->
+      <div class="highlight-box mb-lg">
+        <div class="grid grid-2">
+          <div>
+            <h3 class="text-mono mb-sm">Escala Infinita</h3>
+            <p class="text-muted text-upper" style="font-size: 0.875rem;">Arquitectura Cloud-Native</p>
+          </div>
+          <div>
+            <p><strong>El Problema:</strong> Rutas de archivos locales codificadas. Bucles de un solo hilo procesando gigabytes. Simulaciones que requieren una semana para completarse.</p>
+            <p><strong>Nuestra Solución:</strong> Migramos a arquitecturas cloud-native (AWS/GCP) con frameworks de procesamiento paralelo. Almacenamiento de objetos reemplaza rutas locales. Cómputo distribuido reemplaza bucles for.</p>
+            <p><strong>El Resultado:</strong> Conjuntos de datos de escala terabyte se procesan en minutos. Simulaciones de una semana se completan en menos de 10 minutos. El cómputo escala elásticamente con la demanda.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example 3: Audit-Ready Reliability -->
+      <div class="highlight-box">
+        <div class="grid grid-2">
+          <div>
+            <h3 class="text-mono mb-sm">Confiabilidad Lista para Auditoría</h3>
+            <p class="text-muted text-upper" style="font-size: 0.875rem;">Ingeniería Defensiva</p>
+          </div>
+          <div>
+            <p><strong>El Problema:</strong> Sin validación de entrada. Fallas silenciosas. Resultados irreproducibles. Ejecución dependiente del entorno.</p>
+            <p><strong>Nuestra Solución:</strong> Implementamos validación estricta de entrada, registro exhaustivo de errores y contenerización (Docker). Cada dependencia está fijada. Cada error está trazado. Cada entorno es idéntico.</p>
+            <p><strong>El Resultado:</strong> El sistema pasa la rigurosa due diligence técnica de VCs internacionales. La reproducibilidad está garantizada. Se cumplen los requisitos de cumplimiento normativo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Commitment -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2 class="text-mono">Nuestro Compromiso</h2>
+          <p class="text-muted text-upper">Potenciando la Excelencia Científica</p>
+        </div>
+        <div>
+          <p>No reemplazamos al científico. Lo empoderamos para escalar.</p>
+          <p>Respetamos el rigor y la experiencia que produjo la investigación original. Nuestro rol es traducir esa brillantez en arquitecturas que puedan sostener una empresa, atraer capital y generar impacto a escala.</p>
+          <p>Nos especializamos en laboratorios de investigación latinoamericanos y spin-offs de deep tech porque entendemos las restricciones únicas: infraestructura limitada, cronogramas conscientes del presupuesto y la urgencia de moverse rápido sin romper cosas.</p>
+          <p class="mt-lg">
+            <a href="contact.html" class="btn btn-primary">Discute tu Arquitectura</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4 class="text-mono mb-sm">Contacto</h4>
+          <p class="footer-text">info@phorma.sh</p>
+        </div>
+        <div>
+          <p class="footer-text">&copy; 2025 Phorma Scientific</p>
+          <p class="footer-text">Estructura sobre el Caos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JavaScript -->
+  <script src="../js/main.js"></script>
+</body>
+</html>
