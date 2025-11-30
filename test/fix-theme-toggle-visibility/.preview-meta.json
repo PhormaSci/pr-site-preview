@@ -1,9 +1,0 @@
-{
-  "pr_number": 6,
-  "branch": "fix/theme-toggle-visibility",
-  "branch_slug": "fix-theme-toggle-visibility",
-  "timestamp": "2025-11-30 17:02:46 UTC",
-  "commit": "f4e7b9b37e2005d4202532a739911178d7ef9adc",
-  "pr_title": "Fix/theme toggle visibility\n",
-  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/6"
-}
