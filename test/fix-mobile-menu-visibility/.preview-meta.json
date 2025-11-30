@@ -1,0 +1,9 @@
+{
+  "pr_number": 7,
+  "branch": "fix/mobile-menu-visibility",
+  "branch_slug": "fix-mobile-menu-visibility",
+  "timestamp": "2025-11-30 20:11:56 UTC",
+  "commit": "a0cc27fb33424f2244df5570f056644ae63ea9e7",
+  "pr_title": "fix: Make mobile menu button visible in dark mode\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/7"
+}
