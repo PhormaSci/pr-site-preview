@@ -1,0 +1,9 @@
+{
+  "pr_number": 2,
+  "branch": "chore/test-gh-action",
+  "branch_slug": "chore-test-gh-action",
+  "timestamp": "2025-11-30 14:08:43 UTC",
+  "commit": "871e273fbc9182097a4e142c2b39905298a8ec42",
+  "pr_title": "Add GitHub Action for PR preview deployments\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/2"
+}

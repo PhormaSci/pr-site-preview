@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PR Preview Deployments - Phorma Scientific</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      padding: 2rem;
+    }
+    h1 {
+      color: #2d3748;
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+    }
+    .subtitle {
+      color: #718096;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+    .preview-grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+    .preview-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: all 0.2s;
+      background: #f7fafc;
+    }
+    .preview-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+    .preview-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .pr-badge {
+      background: #667eea;
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    .preview-meta {
+      font-size: 0.85rem;
+      color: #718096;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    .preview-meta div {
+      margin-bottom: 0.25rem;
+    }
+    .preview-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+    .btn-primary {
+      background: #667eea;
+      color: white;
+    }
+    .btn-primary:hover {
+      background: #5568d3;
+    }
+    .btn-secondary {
+      background: #e2e8f0;
+      color: #2d3748;
+    }
+    .btn-secondary:hover {
+      background: #cbd5e0;
+    }
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #718096;
+    }
+    .empty-state svg {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+    .timestamp {
+      font-family: 'Courier New', monospace;
+      background: #edf2f7;
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PR Preview Deployments</h1>
+    <div class="subtitle">Active pull request preview deployments for Phorma Scientific</div>
+    <div class="preview-grid" id="previews">
+      <div class="preview-card">
+        <div class="preview-title">
+          <span class="pr-badge">PR #2</span>
+          Add GitHub Action for PR preview deployments
+        </div>
+        <div class="preview-meta">
+          <div><strong>Branch:</strong> chore/test-gh-action</div>
+          <div><strong>Updated:</strong> <span class="timestamp">2025-11-30 14:08:43 UTC</span></div>
+          <div><strong>Commit:</strong> <code>871e273</code></div>
+        </div>
+        <div class="preview-actions">
+          <a href="/pr-site-preview/test/chore-test-gh-action/" class="btn btn-primary">View Preview</a>
+          <a href="https://github.com/PhormaSci/phormasci.github.io/pull/2" class="btn btn-secondary" target="_blank">View PR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
