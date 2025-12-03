@@ -1,9 +1,0 @@
-{
-  "pr_number": 9,
-  "branch": "fix/missing-translations",
-  "branch_slug": "fix-missing-translations",
-  "timestamp": "2025-12-03 02:07:38 UTC",
-  "commit": "722d7441ab18a6b03c95a0420b2a68e613c6fab2",
-  "pr_title": "fix(i18n): Fix Spanish labels showing as English in trainee cards\n",
-  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/9"
-}
