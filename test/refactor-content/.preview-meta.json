@@ -1,0 +1,9 @@
+{
+  "pr_number": 8,
+  "branch": "refactor/content",
+  "branch_slug": "refactor-content",
+  "timestamp": "2025-12-03 01:43:03 UTC",
+  "commit": "af9d2bbd2e5dd1113c5d63e27eb2fe83f56a95e9",
+  "pr_title": "refactor(home): Refactor home page content to markdown-based system\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/8"
+}
