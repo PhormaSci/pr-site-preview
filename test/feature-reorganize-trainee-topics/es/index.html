@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phorma Scientific - Transformando la complejidad científica en sistemas de producción. Rigor. Rendimiento. Arquitectura.">
+  <title>Phorma Scientific - Estructura sobre el Caos</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
+  <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../assets/logo.svg" alt="Phorma Scientific Logo">
+        PHORMA
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          ◐
+        </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        MENÚ
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="active">INICIO</a></li>
+        <li><a href="services.html">SERVICIOS</a></li>
+        <li><a href="trainees.html">CAPACITACIÓN</a></li>
+        <li><a href="contact.html">CONTACTO</a></li>
+        <li class="lang-switch"><a href="../index.html">EN</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Dynamic Content Container -->
+  <div id="content-container"></div>
+
+  <!-- Authority -->
+  <!-- HIDDEN: Tier-1 Organizations section
+  <section class="section border-top">
+    <div class="container text-center">
+      <h4 class="text-mono text-muted mb-lg">Confianza de Organizaciones Tier-1</h4>
+      <div class="authority-grid">
+        <div class="authority-logo" style="width: 120px; height: 60px; border: 1px solid #E5E5E5; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; color: #999;">JPM</div>
+        <div class="authority-logo" style="width: 120px; height: 60px; border: 1px solid #E5E5E5; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; color: #999;">MERCADO LIBRE</div>
+        <div class="authority-logo" style="width: 120px; height: 60px; border: 1px solid #E5E5E5; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; color: #999;">SIMCORP</div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4 class="text-mono mb-sm">Contacto</h4>
+          <p class="footer-text">info@phorma.sh</p>
+        </div>
+        <div>
+          <p class="footer-text">&copy; 2025 Phorma Scientific</p>
+          <p class="footer-text">Estructura sobre el Caos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/content-loader.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    // Load home page content
+    loadContent('home', 'es');
+  </script>
+</body>
+</html>

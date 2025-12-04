@@ -1,0 +1,9 @@
+{
+  "pr_number": 10,
+  "branch": "feature/reorganize-trainee-topics",
+  "branch_slug": "feature-reorganize-trainee-topics",
+  "timestamp": "2025-12-04 11:38:26 UTC",
+  "commit": "87c7db226eb228e5d15839461d95090a49b285b5",
+  "pr_title": "feat(trainees): Reorganize workshops by topic and add Generative AI c…\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/10"
+}
