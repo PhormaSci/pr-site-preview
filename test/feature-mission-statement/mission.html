@@ -46,127 +46,10 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-content">
-      <h1>The Prototype Trap</h1>
-      <p class="hero-subheading">Scientific startups rarely fail because of the science.<br>They fail because their code is a non-scalable prototype that lacks professional structure and architecture.</p>
-    </div>
-  </section>
-
-  <!-- The Challenge: Academic Code vs. Production Code -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">The Reality</h2>
-          <p class="text-muted text-upper">Academic Code ≠ Production Code</p>
-        </div>
-        <div>
-          <p>Principal Investigators and academic founders often discover a critical gap too late: the code that published their groundbreaking paper is fundamentally unsuited for a commercial product.</p>
-          <p><strong>Academic Code</strong> is optimized for a single successful execution. It demonstrates feasibility. It validates the "happy path." It earns citations.</p>
-          <p><strong>Production Code</strong> is optimized for scale, security, and resilience. It handles edge cases. It processes terabytes. It passes Venture Capital technical due diligence.</p>
-          <p>The distinction is not obvious until it becomes expensive.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Hidden Cost -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">The Hidden Cost</h2>
-          <p class="text-muted text-upper">Technical Debt at Scale</p>
-        </div>
-        <div>
-          <p>Without re-architecting, teams encounter critical failures at the worst possible moments:</p>
-          <ul class="styled-list">
-            <li><strong>During fundraising:</strong> International VCs conduct rigorous technical due diligence. Code that "works on my machine" raises red flags about execution risk.</li>
-            <li><strong>At scale:</strong> Algorithms designed for small datasets hit the single-core bottleneck. Week-long simulations become month-long nightmares.</li>
-            <li><strong>In production:</strong> Hardcoded file paths, missing error handling, and lack of reproducibility create operational chaos.</li>
-          </ul>
-          <p>These are not research failures. They are engineering failures—preventable with the right expertise.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Our Approach: Three Concrete Examples -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="text-center mb-lg">
-        <h2 class="text-mono">How We Do It</h2>
-        <p class="hero-subheading">Concrete transformations. Measurable outcomes.</p>
-      </div>
-
-      <!-- Example 1: From Script to System -->
-      <div class="highlight-box mb-lg">
-        <div class="grid grid-2">
-          <div>
-            <h3 class="text-mono mb-sm">From Script to System</h3>
-            <p class="text-muted text-upper" style="font-size: 0.875rem;">Refactoring for Maintainability</p>
-          </div>
-          <div>
-            <p><strong>The Problem:</strong> A 5,000-line monolithic script that runs exclusively on one student's laptop. No documentation. No tests. No version control discipline.</p>
-            <p><strong>Our Solution:</strong> We decompose the spaghetti code into modular, documented libraries with automated unit tests. Every function has a single responsibility. Every module has a clear interface. Every commit passes CI/CD.</p>
-            <p><strong>The Outcome:</strong> The codebase becomes transferable, extendable, and audit-ready. New developers onboard in days, not months.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Example 2: Infinite Scale -->
-      <div class="highlight-box mb-lg">
-        <div class="grid grid-2">
-          <div>
-            <h3 class="text-mono mb-sm">Infinite Scale</h3>
-            <p class="text-muted text-upper" style="font-size: 0.875rem;">Cloud-Native Architecture</p>
-          </div>
-          <div>
-            <p><strong>The Problem:</strong> Hardcoded local file paths. Single-threaded loops processing gigabytes. Simulations that require a week to complete.</p>
-            <p><strong>Our Solution:</strong> We migrate to cloud-native architectures (AWS/GCP) with parallel processing frameworks. Object storage replaces local paths. Distributed compute replaces for-loops.</p>
-            <p><strong>The Outcome:</strong> Terabyte-scale datasets process in minutes. Week-long simulations complete in under 10 minutes. Compute scales elastically with demand.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Example 3: Audit-Ready Reliability -->
-      <div class="highlight-box">
-        <div class="grid grid-2">
-          <div>
-            <h3 class="text-mono mb-sm">Audit-Ready Reliability</h3>
-            <p class="text-muted text-upper" style="font-size: 0.875rem;">Defensive Engineering</p>
-          </div>
-          <div>
-            <p><strong>The Problem:</strong> No input validation. Silent failures. Irreproducible results. Environment-dependent execution.</p>
-            <p><strong>Our Solution:</strong> We implement strict input validation, comprehensive error logging, and containerization (Docker). Every dependency is pinned. Every error is traced. Every environment is identical.</p>
-            <p><strong>The Outcome:</strong> The system passes rigorous technical due diligence from international VCs. Reproducibility is guaranteed. Compliance requirements are met.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Our Commitment -->
-  <section class="section">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">Our Commitment</h2>
-          <p class="text-muted text-upper">Empowering Scientific Excellence</p>
-        </div>
-        <div>
-          <p>We do not replace the scientist. We empower them to scale.</p>
-          <p>We respect the rigor and expertise that produced the original research. Our role is to translate that brilliance into architectures that can sustain a company, attract capital, and deliver impact at scale.</p>
-          <p>We specialize in Latin American research labs and deep tech spin-offs because we understand the unique constraints: limited infrastructure, budget-conscious timelines, and the urgency of moving fast without breaking things.</p>
-          <p class="mt-lg">
-            <a href="contact.html" class="btn btn-primary">Discuss Your Architecture</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Mission Content -->
+  <div id="content-container">
+    <!-- Content loaded dynamically from markdown files -->
+  </div>
 
   <!-- Footer -->
   <footer class="footer" id="contact">
@@ -186,5 +69,12 @@
 
   <!-- Minimal JavaScript -->
   <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
+  <script>
+    // Load mission content on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      loadContent('mission', 'en');
+    });
+  </script>
 </body>
 </html>

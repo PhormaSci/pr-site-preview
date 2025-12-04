@@ -1,7 +1,8 @@
 ---
 title: Architectural Systems Design
 meta: Advanced Architecture
-order: 6
+category: Software Engineering
+order: 43
 duration: 4 days
 format: Architecture workshop + case studies
 prerequisites: Software engineering experience

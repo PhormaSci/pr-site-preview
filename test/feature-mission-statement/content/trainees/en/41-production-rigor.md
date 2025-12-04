@@ -1,7 +1,8 @@
 ---
 title: Production Rigor
 meta: Best Practices
-order: 2
+category: Software Engineering
+order: 41
 duration: 3 days
 format: Workshop + Code Review Sessions
 prerequisites: Existing codebase to refactor

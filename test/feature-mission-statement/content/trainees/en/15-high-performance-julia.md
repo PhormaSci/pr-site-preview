@@ -1,7 +1,8 @@
 ---
 title: High-Performance Julia
 meta: Optimization & Parallelism
-order: 5
+category: Numerical Computing
+order: 15
 duration: 3 days
 format: Intensive hands-on lab
 prerequisites: Julia basics, linear algebra
