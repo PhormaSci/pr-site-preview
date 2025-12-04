@@ -45,70 +45,8 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-content">
-      <img src="../assets/logo.svg" alt="Phorma Scientific" class="hero-logo">
-      <h1>Rigor. Rendimiento. Arquitectura.</h1>
-      <p class="hero-subheading">Transformamos la complejidad científica en sistemas de producción.</p>
-      <a href="#audit" class="btn btn-primary">Solicitar Auditoría de Sistema</a>
-    </div>
-  </section>
-
-  <!-- The Challenge -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">El Desafío</h2>
-          <p class="text-muted">Inmadurez</p>
-        </div>
-        <div>
-          <p>El código científico ad-hoc suele ser lento, incumplir normativas y ser difícil de mantener.</p>
-          <p>Los equipos de investigación construyen prototipos que funcionan en notebooks de Jupyter pero fallan bajo restricciones de producción. El rendimiento se degrada. La exactitud numérica se vuelve cuestionable. La deuda técnica se acumula.</p>
-          <p>La brecha entre investigación y despliegue se amplía, y la innovación se estanca en la etapa de prototipo.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Solution -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">La Solución</h2>
-          <p class="text-muted">Forma</p>
-        </div>
-        <div>
-          <p>Implementamos exactitud computacional verificable, velocidad operacional y estabilidad arquitectónica.</p>
-          <p>Nuestro enfoque cierra la brecha entre la innovación en investigación y la infraestructura de nivel empresarial. Establecemos estándares de reproducibilidad, optimizamos el rendimiento a nivel algorítmico y de sistemas, y arquitecturamos soluciones que escalan.</p>
-          <p>Cada sistema que construimos está probado, benchmarkeado y listo para producción.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Service: System Audit -->
-  <section class="section" id="audit">
-    <div class="container">
-      <div class="highlight-box">
-        <div class="grid grid-2">
-          <div>
-            <h3 class="text-mono mb-sm">Auditoría de Sistema y Arquitectura</h3>
-            <p class="text-muted text-upper" style="font-size: 0.875rem; margin-bottom: 1rem;">Servicio de Entrada</p>
-          </div>
-          <div>
-            <p><strong>Objetivo:</strong> Identificar deuda estructural, cuellos de botella de rendimiento y brechas de cumplimiento en su infraestructura de computación científica.</p>
-            <p><strong>Entregable:</strong> Hoja de ruta de modernización arquitectónica con ítems de acción priorizados, benchmarks de rendimiento y estrategia de refactorización.</p>
-            <p style="margin-top: 1.5rem;">
-              <a href="contact.html" class="btn">Solicitar Auditoría</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Dynamic Content Container -->
+  <div id="content-container"></div>
 
   <!-- Authority -->
   <!-- HIDDEN: Tier-1 Organizations section
@@ -140,7 +78,12 @@
     </div>
   </footer>
 
-  <!-- Minimal JavaScript -->
+  <!-- JavaScript -->
+  <script src="../js/content-loader.js"></script>
   <script src="../js/main.js"></script>
+  <script>
+    // Load home page content
+    loadContent('home', 'es');
+  </script>
 </body>
 </html>

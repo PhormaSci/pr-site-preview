@@ -1,7 +1,8 @@
 ---
 title: Napari Plugin Development
 meta: Intermediate
-order: 8
+category: Bioimage Analysis
+order: 52
 duration: 2 days
 format: Hands-on workshop
 prerequisites: Python proficiency, basic image analysis experience

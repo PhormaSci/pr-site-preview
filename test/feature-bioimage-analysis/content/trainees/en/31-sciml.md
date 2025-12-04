@@ -1,7 +1,8 @@
 ---
 title: Applied Scientific Machine Learning
 meta: SciML
-order: 3
+category: Scientific Machine Learning
+order: 31
 duration: 4 days
 format: Intensive hands-on training
 prerequisites: ML basics, calculus, linear algebra

@@ -1,7 +1,8 @@
 ---
 title: AI for Microscopy - Training to Inference
 meta: Advanced
-order: 9
+category: Bioimage Analysis
+order: 53
 duration: 4 days
 format: Hands-on workshop
 prerequisites: Python, NumPy, basic machine learning concepts

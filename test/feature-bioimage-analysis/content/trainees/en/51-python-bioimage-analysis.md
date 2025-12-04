@@ -1,7 +1,8 @@
 ---
 title: Python for Bioimage Analysis
 meta: Entry Level
-order: 7
+category: Bioimage Analysis
+order: 51
 duration: 3 days
 format: Hands-on workshop
 prerequisites: Basic Python knowledge

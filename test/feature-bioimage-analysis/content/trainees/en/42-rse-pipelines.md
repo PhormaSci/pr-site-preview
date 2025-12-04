@@ -1,7 +1,8 @@
 ---
 title: RSE & Production Pipelines
 meta: Research to Production
-order: 4
+category: Software Engineering
+order: 42
 duration: 3 days
 format: Workshop with live refactoring
 prerequisites: Research code in need of productionization

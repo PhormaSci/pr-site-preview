@@ -1,7 +1,8 @@
 ---
 title: Numerical Computing Fundamentals
 meta: Python / Julia
-order: 1
+category: Numerical Computing
+order: 11
 duration: 2 days
 format: Hands-on workshop
 prerequisites: Basic programming knowledge

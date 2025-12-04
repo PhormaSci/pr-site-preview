@@ -6,7 +6,7 @@
 
 Phorma Scientific transforms scientific complexity into production-grade systems. This website embodies our core philosophy through precise, architecturally sound design.
 
-**Live Site:** `phorma.xyz` / `phorma.ar`
+**Live Site:** `phorma.sh` / `phorma.xyz` / `phorma.ar`
 
 ## Technical Architecture
 
@@ -81,6 +81,9 @@ Language switcher in navigation allows seamless switching between languages. All
 
 ### Local Preview
 ```bash
+# Using justfile (recommended)
+just serve      # or: just dev
+
 # Python simple server
 python3 -m http.server 8000
 
@@ -90,12 +93,81 @@ npx serve
 # Then open: http://localhost:8000
 ```
 
+### Available Commands (justfile)
+```bash
+just           # List all available commands
+just serve     # Run local server (default port 8000)
+just dev       # Alias for serve
+just size      # Check bundle sizes
+just validate  # Validate HTML files
+just clean     # Remove artifacts
+just status    # Git status
+```
+
 ### Deployment
 This repository is configured for GitHub Pages. Any push to `main` will automatically deploy.
 
 **Custom Domain Setup:**
-1. Add CNAME record: `phorma.xyz` → `phormasci.github.io`
+1. Add CNAME record: `phorma.sh` → `phormasci.github.io`
 2. Create `CNAME` file in root with domain name
+
+### Commit Conventions
+
+This project follows **Conventional Commits** for clear, structured commit messages:
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+**Types:**
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation changes
+- `style:` Formatting, CSS changes (no code change)
+- `refactor:` Code refactoring
+- `perf:` Performance improvements
+- `test:` Adding tests
+- `chore:` Maintenance tasks, tooling
+- `ci:` CI/CD changes
+
+**Examples:**
+```bash
+feat: Add dark theme toggle to navigation
+fix: Correct mobile menu z-index issue
+docs: Update README with deployment instructions
+style: Improve card grid spacing on tablet
+refactor: Simplify content loader markdown parser
+chore: Add justfile for local development
+ci: Add path filters to PR preview workflow
+```
+
+**Code Comments:**
+Use **Conventional Comments** for PR reviews and code discussions:
+
+```
+<label> [decorations]: <subject>
+
+[discussion]
+```
+
+**Labels:** `praise`, `nitpick`, `suggestion`, `issue`, `todo`, `question`, `thought`, `chore`, `note`
+
+**Decorations:** `(blocking)`, `(non-blocking)`, `(if-minor)`
+
+**Examples:**
+```
+suggestion: Consider using CSS custom properties here for theme consistency
+
+issue (blocking): This breaks mobile navigation on iOS Safari
+
+nitpick: Extra whitespace on line 42
+
+praise: Excellent use of semantic HTML here!
+```
 
 ## Design System
 

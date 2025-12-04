@@ -26,7 +26,14 @@
       const colonIndex = line.indexOf(':');
       if (colonIndex > -1) {
         const key = line.substring(0, colonIndex).trim();
-        const value = line.substring(colonIndex + 1).trim();
+        let value = line.substring(colonIndex + 1).trim();
+
+        // Remove surrounding quotes (single or double) if present
+        if ((value.startsWith('"') && value.endsWith('"')) ||
+            (value.startsWith("'") && value.endsWith("'"))) {
+          value = value.slice(1, -1);
+        }
+
         frontmatter[key] = value;
       }
     });
@@ -68,7 +75,7 @@
   /**
    * Render a service card from markdown data
    */
-  function renderServiceCard(data) {
+  function renderServiceCard(data, lang) {
     const { frontmatter, content } = data;
 
     // Split content by horizontal rule
@@ -95,7 +102,7 @@
   /**
    * Render a trainee card from markdown data
    */
-  function renderTraineeCard(data) {
+  function renderTraineeCard(data, lang) {
     const { frontmatter, content } = data;
 
     return `
@@ -106,13 +113,111 @@
         </div>
         <div class="card-body">
           ${markdownToHtml(content)}
-          <p><strong>${frontmatter.duration ? 'Duration:' : 'Duración:'}</strong> ${frontmatter.duration || ''}</p>
-          <p><strong>${frontmatter.format ? 'Format:' : 'Formato:'}</strong> ${frontmatter.format || ''}</p>
-          <p><strong>${frontmatter.prerequisites ? 'Prerequisites:' : 'Requisitos:'}</strong> ${frontmatter.prerequisites || ''}</p>
+          <p><strong>${lang === 'es' ? 'Duración:' : 'Duration:'}</strong> ${frontmatter.duration || ''}</p>
+          <p><strong>${lang === 'es' ? 'Formato:' : 'Format:'}</strong> ${frontmatter.format || ''}</p>
+          <p><strong>${lang === 'es' ? 'Requisitos:' : 'Prerequisites:'}</strong> ${frontmatter.prerequisites || ''}</p>
         </div>
         <div class="card-footer">
-          <p class="text-muted text-upper" style="font-size: 0.75rem;"><strong>${frontmatter.outcome ? 'Outcome:' : 'Resultado:'}</strong> ${frontmatter.outcome || ''}</p>
+          <p class="text-muted text-upper" style="font-size: 0.75rem;"><strong>${lang === 'es' ? 'Resultado:' : 'Outcome:'}</strong> ${frontmatter.outcome || ''}</p>
         </div>
+      </div>
+    `;
+  }
+
+  /**
+   * Render hero section from markdown data
+   */
+  function renderHeroSection(data) {
+    const { frontmatter } = data;
+
+    return `
+      <section class="hero">
+        <div class="container hero-content">
+          <img src="${frontmatter.logo || 'assets/logo.svg'}" alt="Phorma Scientific" class="hero-logo">
+          <h1>${frontmatter.heading || ''}</h1>
+          <p class="hero-subheading">${frontmatter.subheading || ''}</p>
+          <a href="${frontmatter.cta_link || '#'}" class="btn btn-primary">${frontmatter.cta_text || ''}</a>
+        </div>
+      </section>
+    `;
+  }
+
+  /**
+   * Render two-column section from markdown data
+   */
+  function renderTwoColumnSection(data) {
+    const { frontmatter, content } = data;
+
+    return `
+      <section class="section border-bottom">
+        <div class="container">
+          <div class="grid grid-2">
+            <div>
+              <h2 class="text-mono">${frontmatter.title || ''}</h2>
+              <p class="text-muted">${frontmatter.subtitle || ''}</p>
+            </div>
+            <div>
+              ${markdownToHtml(content)}
+            </div>
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  /**
+   * Render featured service section from markdown data
+   */
+  function renderFeaturedSection(data) {
+    const { frontmatter, content } = data;
+
+    return `
+      <section class="section" id="audit">
+        <div class="container">
+          <div class="highlight-box">
+            <div class="grid grid-2">
+              <div>
+                <h3 class="text-mono mb-sm">${frontmatter.title || ''}</h3>
+                <p class="text-muted text-upper" style="font-size: 0.875rem; margin-bottom: 1rem;">${frontmatter.meta || ''}</p>
+              </div>
+              <div>
+                ${markdownToHtml(content)}
+                <p style="margin-top: 1.5rem;">
+                  <a href="${frontmatter.cta_link || 'contact.html'}" class="btn">${frontmatter.cta_text || ''}</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  /**
+   * Render home page section based on type
+   */
+  function renderHomeSection(data, lang) {
+    const { frontmatter } = data;
+    const type = frontmatter.type;
+
+    if (type === 'hero') {
+      return renderHeroSection(data);
+    } else if (type === 'section') {
+      return renderTwoColumnSection(data);
+    } else if (type === 'featured') {
+      return renderFeaturedSection(data);
+    }
+
+    return '';
+  }
+
+  /**
+   * Render category header
+   */
+  function renderCategoryHeader(category) {
+    return `
+      <div style="grid-column: 1 / -1; margin-top: 2rem; margin-bottom: 1rem;">
+        <h2 class="text-mono" style="font-size: 1.5rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem;">${category}</h2>
       </div>
     `;
   }
@@ -120,7 +225,7 @@
   /**
    * Load markdown files from a directory
    */
-  async function loadMarkdownFiles(basePath, fileList, renderFunction) {
+  async function loadMarkdownFiles(basePath, fileList, renderFunction, lang, groupByCategory = false) {
     const container = document.getElementById('content-container');
     if (!container) return;
 
@@ -143,8 +248,28 @@
         return orderA - orderB;
       });
 
-      // Render all cards
-      container.innerHTML = results.map(renderFunction).join('');
+      // Group by category if requested
+      if (groupByCategory) {
+        const grouped = {};
+        results.forEach(data => {
+          const category = data.frontmatter.category || 'Other';
+          if (!grouped[category]) {
+            grouped[category] = [];
+          }
+          grouped[category].push(data);
+        });
+
+        // Render grouped content with category headers
+        let html = '';
+        Object.keys(grouped).forEach(category => {
+          html += renderCategoryHeader(category);
+          html += grouped[category].map(data => renderFunction(data, lang)).join('');
+        });
+        container.innerHTML = html;
+      } else {
+        // Render all cards without grouping
+        container.innerHTML = results.map(data => renderFunction(data, lang)).join('');
+      }
     } catch (error) {
       console.error('Error loading content:', error);
       container.innerHTML = '<p class="text-center">Error loading content. Please refresh the page.</p>';
@@ -155,22 +280,18 @@
    * Initialize content loading based on page type
    */
   window.loadContent = function(type, lang) {
-    const isServices = type === 'services';
     const basePath = lang === 'es' ? '../content' : 'content';
     const contentPath = `${basePath}/${type}/${lang}`;
 
     let fileList = [];
     let renderFunction;
 
-    if (isServices) {
+    if (type === 'services') {
       fileList = [
         '01-system-audit.md',
         '02-research-software-engineering.md',
         '03-scientific-ml.md',
-        '04-performance-synthesis.md',
-        '05-bioimage-informatics.md',
-        '06-digital-petrography.md',
-        '07-computational-phenomics.md'
+        '04-performance-synthesis.md'
       ];
 
       // Adjust filenames for Spanish
@@ -184,35 +305,50 @@
       }
 
       renderFunction = renderServiceCard;
-    } else {
-      // Trainees
+    } else if (type === 'trainees') {
       fileList = [
-        '01-numerical-computing.md',
-        '02-production-rigor.md',
-        '03-sciml.md',
-        '04-rse-pipelines.md',
-        '05-high-performance-julia.md',
-        '06-architectural-systems.md',
-        '07-python-bioimage-analysis.md',
-        '08-napari-plugin-development.md',
-        '09-ai-microscopy.md'
+        '11-numerical-computing.md',
+        '15-high-performance-julia.md',
+        '21-generative-ai-scientific-software.md',
+        '31-sciml.md',
+        '41-production-rigor.md',
+        '42-rse-pipelines.md',
+        '43-architectural-systems.md',
+        '51-python-bioimage-analysis.md',
+        '52-napari-plugin-development.md',
+        '53-ai-microscopy.md'
       ];
 
       // Adjust filenames for Spanish
       if (lang === 'es') {
         fileList = [
-          '01-computacion-numerica.md',
-          '02-rigor-produccion.md',
-          '03-sciml.md',
-          '04-rse-pipelines.md',
-          '05-julia-alto-rendimiento.md',
-          '06-sistemas-arquitectonicos.md'
+          '11-computacion-numerica.md',
+          '15-julia-alto-rendimiento.md',
+          '21-ia-generativa-software-cientifico.md',
+          '31-sciml.md',
+          '41-rigor-produccion.md',
+          '42-rse-pipelines.md',
+          '43-sistemas-arquitectonicos.md',
+          '51-analisis-bioimagen-python.md',
+          '52-desarrollo-plugins-napari.md',
+          '53-ia-microscopia.md'
         ];
       }
 
       renderFunction = renderTraineeCard;
+    } else if (type === 'home') {
+      fileList = [
+        '01-hero.md',
+        '02-challenge.md',
+        '03-solution.md',
+        '04-featured.md'
+      ];
+
+      renderFunction = renderHomeSection;
     }
 
-    loadMarkdownFiles(contentPath, fileList, renderFunction);
+    // Enable category grouping for trainees page
+    const groupByCategory = (type === 'trainees');
+    loadMarkdownFiles(contentPath, fileList, renderFunction, lang, groupByCategory);
   };
 })();

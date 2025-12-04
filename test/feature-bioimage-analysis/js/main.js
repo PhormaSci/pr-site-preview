@@ -83,35 +83,38 @@
     });
   }
 
-  // Smooth scroll for anchor links (optional enhancement)
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const href = this.getAttribute('href');
+  // Smooth scroll for anchor links using event delegation (works with dynamic content)
+  document.addEventListener('click', function(e) {
+    // Check if clicked element is an anchor with href starting with #
+    const anchor = e.target.closest('a[href^="#"]');
 
-      // Don't prevent default for #contact if it's just a section marker
-      if (href === '#' || href === '') {
-        return;
-      }
+    if (!anchor) return;
 
-      const target = document.querySelector(href);
+    const href = anchor.getAttribute('href');
 
-      if (target) {
-        e.preventDefault();
+    // Don't prevent default for #contact if it's just a section marker
+    if (href === '#' || href === '') {
+      return;
+    }
 
-        // Close mobile menu if open
-        if (navMenu && navMenu.classList.contains('is-open')) {
-          navMenu.classList.remove('is-open');
-          if (navToggle) {
-            navToggle.setAttribute('aria-expanded', 'false');
-          }
+    const target = document.querySelector(href);
+
+    if (target) {
+      e.preventDefault();
+
+      // Close mobile menu if open
+      if (navMenu && navMenu.classList.contains('is-open')) {
+        navMenu.classList.remove('is-open');
+        if (navToggle) {
+          navToggle.setAttribute('aria-expanded', 'false');
         }
-
-        // Smooth scroll to target
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
       }
-    });
+
+      // Smooth scroll to target
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
   });
 })();

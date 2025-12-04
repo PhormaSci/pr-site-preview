@@ -45,70 +45,8 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-content">
-      <img src="assets/logo.svg" alt="Phorma Scientific" class="hero-logo">
-      <h1>Rigor. Performance. Architecture.</h1>
-      <p class="hero-subheading">We transform scientific complexity into production-grade systems.</p>
-      <a href="#audit" class="btn btn-primary">Schedule a System Audit</a>
-    </div>
-  </section>
-
-  <!-- The Challenge -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">The Challenge</h2>
-          <p class="text-muted">Immaturity</p>
-        </div>
-        <div>
-          <p>Ad-hoc scientific code is often slow, non-compliant, and unmaintainable.</p>
-          <p>Research teams build prototypes that work in Jupyter notebooks but fail under production constraints. Performance degrades. Numerical accuracy becomes questionable. Technical debt compounds.</p>
-          <p>The gap between research and deployment widens, and innovation stalls at the prototype stage.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Solution -->
-  <section class="section border-bottom">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h2 class="text-mono">The Solution</h2>
-          <p class="text-muted">Form</p>
-        </div>
-        <div>
-          <p>We implement verifiable computational accuracy, operational speed, and architectural stability.</p>
-          <p>Our approach bridges the gap between research innovation and enterprise-grade infrastructure. We establish reproducibility standards, optimize performance at the algorithmic and systems level, and architect solutions that scale.</p>
-          <p>Every system we build is tested, benchmarked, and production-ready.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Service: System Audit -->
-  <section class="section" id="audit">
-    <div class="container">
-      <div class="highlight-box">
-        <div class="grid grid-2">
-          <div>
-            <h3 class="text-mono mb-sm">System Audit & Architecture</h3>
-            <p class="text-muted text-upper" style="font-size: 0.875rem; margin-bottom: 1rem;">Entry-Level Engagement</p>
-          </div>
-          <div>
-            <p><strong>Goal:</strong> Identify structural debt, performance bottlenecks, and compliance gaps in your scientific computing stack.</p>
-            <p><strong>Deliverable:</strong> Architectural Modernization Roadmap with prioritized action items, performance benchmarks, and refactoring strategy.</p>
-            <p style="margin-top: 1.5rem;">
-              <a href="contact.html" class="btn">Request Audit</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Dynamic Content Container -->
+  <div id="content-container"></div>
 
   <!-- Authority -->
   <!-- HIDDEN: Tier-1 Organizations section
@@ -140,7 +78,12 @@
     </div>
   </footer>
 
-  <!-- Minimal JavaScript -->
+  <!-- JavaScript -->
+  <script src="js/content-loader.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    // Load home page content
+    loadContent('home', 'en');
+  </script>
 </body>
 </html>
