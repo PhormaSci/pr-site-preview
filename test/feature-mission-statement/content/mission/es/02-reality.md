@@ -1,14 +1,16 @@
 ---
 type: section
 title: La Realidad
-subtitle: Código Académico ≠ Código de Producción
+subtitle: Dos Mundos, Un Problema
 order: 2
 ---
 
-Los investigadores principales y fundadores académicos suelen descubrir una brecha crítica demasiado tarde: el código que publicó su artículo innovador es fundamentalmente inadecuado para un producto comercial.
+Operamos donde estos dos mundos convergen, resolviendo el déficit específico de cada uno:
 
-**El Código Académico** está optimizado para una única ejecución exitosa. Demuestra factibilidad. Valida el "camino feliz". Genera citaciones.
+**1. El Fundador Académico (El Déficit de Estructura)**
 
-**El Código de Producción** está optimizado para escala, seguridad y resiliencia. Maneja casos extremos. Procesa terabytes. Pasa la due diligence técnica de fondos de Venture Capital.
+Poseés el conocimiento. Sabés **cómo** modelar el fenómeno. Pero tu implementación es un script académico optimizado para un único "caso ideal". Demuestra factibilidad, pero carece de la arquitectura necesaria para sobrevivir al escalamiento comercial.
 
-La distinción no es obvia hasta que se vuelve costosa.
+**2. El Líder Industrial (El Déficit de Modelado)**
+
+Poseés la materia prima. Tenés los datos y un problema complejo definido por restricciones del mundo real. Pero no sabés cómo extraer la información. Te falta el marco científico para traducir tus datos en un modelo matemático resoluble.

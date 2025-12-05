@@ -1,14 +1,16 @@
 ---
 type: section
 title: The Reality
-subtitle: Academic Code ≠ Production Code
+subtitle: Two Worlds, One Problem
 order: 2
 ---
 
-Principal Investigators and academic founders often discover a critical gap too late: the code that published their groundbreaking paper is fundamentally unsuited for a commercial product.
+We operate where these two worlds meet, solving the specific deficit of each:
 
-**Academic Code** is optimized for a single successful execution. It demonstrates feasibility. It validates the "happy path." It earns citations.
+**1. The Academic Founder (The Structure Deficit)**
 
-**Production Code** is optimized for scale, security, and resilience. It handles edge cases. It processes terabytes. It passes Venture Capital technical due diligence.
+You possess the knowledge. You know **how** to model the phenomenon. But your implementation is an academic script optimized for a single "happy path" execution. It demonstrates feasibility but lacks the architecture to survive commercial scaling.
 
-The distinction is not obvious until it becomes expensive.
+**2. The Industry Leader (The Modeling Deficit)**
+
+You possess the raw material. You have the data and a complex problem defined by real-world constraints. But you don't know how to extract the information. You lack the scientific framework to translate your data into a solvable mathematical model.

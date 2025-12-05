@@ -1,6 +1,6 @@
 ---
 type: hero
-title: La Trampa del Prototipo
-subtitle: Las startups científicas rara vez fracasan por la ciencia.<br>Fracasan porque su código es un prototipo no escalable que carece de estructura y arquitectura profesional.
+title: La Brecha y El Puente
+subtitle: Las startups científicas y los líderes industriales rara vez fracasan porque la ciencia sea incorrecta o porque falten datos. Fracasan por una desconexión crítica.<br><strong>La Investigación</strong> tiene el conocimiento, pero carece de la estructura de ingeniería.<br><strong>La Industria</strong> tiene los datos, pero carece del modelo científico.
 order: 1
 ---

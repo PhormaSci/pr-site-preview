@@ -47,8 +47,11 @@
   function markdownToHtml(markdown) {
     let html = markdown;
 
-    // Convert bold text
+    // Convert bold text (must be before italics to avoid conflicts)
     html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+
+    // Convert italic text
+    html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
     // Convert inline code
     html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
@@ -478,12 +481,12 @@
       fileList = [
         '01-hero.md',
         '02-reality.md',
-        '03-hidden-cost.md',
         '04-how-intro.md',
         '05-example-script.md',
-        '06-example-scale.md',
-        '07-example-audit.md',
-        '08-commitment.md'
+        '06-example-data.md',
+        '07-example-scale.md',
+        '08-knowledge.md',
+        '09-commitment.md'
       ];
 
       renderFunction = renderMissionSection;
