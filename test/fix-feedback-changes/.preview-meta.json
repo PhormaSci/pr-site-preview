@@ -1,0 +1,9 @@
+{
+  "pr_number": 12,
+  "branch": "fix/feedback-changes",
+  "branch_slug": "fix-feedback-changes",
+  "timestamp": "2025-12-05 22:01:25 UTC",
+  "commit": "7b0484bee196cbe6ee359684f1905a6b0ca5d536",
+  "pr_title": "feat(trainees): Add testing practices workshop and refactor productio…\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/12"
+}
