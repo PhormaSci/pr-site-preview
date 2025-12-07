@@ -1,17 +1,17 @@
 ---
-title: Rigor de Producción
+title: Rigor en Producción
 meta: Mejores Prácticas
 category: Ingeniería de Software
 order: 41
-duration: 3 días
-format: Taller + Sesiones de Revisión de Código
-prerequisites: Base de código existente para refactorizar
-outcome: Pipelines de prueba automatizadas y software científico desplegable.
+duration: 1 día
+format: Taller + Práctica (Hands-on)
+prerequisites: Familiaridad básica con control de versiones
+outcome: Flujos de trabajo profesionales en Git y estándares de colaboración para equipos científicos.
 ---
 
-Transforma flujos de trabajo de investigación en sistemas de grado de producción con prácticas modernas de ingeniería de software.
+Lleva la colaboración en tu código de investigación al siguiente nivel con prácticas de control de versiones estándar de la industria.
 
-- Desarrollo guiado por pruebas (TDD)
-- Integración y despliegue continuos (CI/CD)
-- Flujos de trabajo Git y control de versiones
-- Estándares de revisión de código y colaboración
+- Flujos de trabajo avanzados de Git (branching, merging, rebasing).
+- Mejores prácticas de revisión de código (code review) y protocolo para pull requests.
+- Estándares de desarrollo colaborativo.
+- Conceptos básicos de CI/CD para software científico.

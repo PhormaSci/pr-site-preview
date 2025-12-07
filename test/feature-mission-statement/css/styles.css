@@ -662,3 +662,35 @@ select.form-input {
   color: var(--color-grey-dark);
   opacity: 0.6;
 }
+
+.form-checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-bg-alt);
+  transition: all var(--transition-fast);
+}
+
+.form-checkbox-label:hover {
+  background: var(--color-grey);
+  border-color: var(--color-fg);
+}
+
+.form-checkbox-label input[type="checkbox"] {
+  margin-top: 0.25rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.form-checkbox-label span {
+  flex: 1;
+}
