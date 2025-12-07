@@ -2,7 +2,7 @@
 type: commitment
 title: Nuestro Compromiso
 subtitle: La Triple Misión para Elevar
-cta_text: Discuta Su Arquitectura
+cta_text: Agende una Consulta
 cta_link: contact.html
 order: 9
 ---
