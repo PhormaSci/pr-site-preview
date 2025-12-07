@@ -128,6 +128,49 @@
   }
 
   /**
+   * Render a team member card from markdown data
+   */
+  function renderTeamMemberCard(data, lang) {
+    const { frontmatter, content } = data;
+
+    // Split content by horizontal rule (---)
+    const sections = content.split('---').map(s => s.trim()).filter(s => s);
+
+    return `
+      <article class="team-member">
+        <div class="team-member-header">
+          <h2 class="team-member-name">${frontmatter.name || ''}</h2>
+          <p class="team-member-title text-mono">${frontmatter.title || ''}</p>
+        </div>
+        <div class="team-member-content">
+          ${sections.map(section => {
+            // Check if section starts with **heading**
+            const headingMatch = section.match(/^\*\*([^*]+)\*\*/);
+            if (headingMatch) {
+              const heading = headingMatch[1];
+              const rest = section.substring(headingMatch[0].length).trim();
+              return `
+                <div class="team-member-section">
+                  <h3 class="team-member-subtitle text-mono">${heading}</h3>
+                  ${markdownToHtml(rest)}
+                </div>
+              `;
+            } else {
+              // Regular bio paragraph
+              return `<p class="team-member-bio">${markdownToHtml(section)}</p>`;
+            }
+          }).join('')}
+        </div>
+        ${frontmatter.cv_link ? `
+        <div class="team-member-footer">
+          <a href="${frontmatter.cv_link}" class="team-member-link" target="_blank" rel="noopener noreferrer">${frontmatter.cv_text || 'View More →'}</a>
+        </div>
+        ` : ''}
+      </article>
+    `;
+  }
+
+  /**
    * Render hero section from markdown data
    */
   function renderHeroSection(data) {
@@ -470,6 +513,13 @@
       }
 
       renderFunction = renderTraineeCard;
+    } else if (type === 'team') {
+      fileList = [
+        '01-sasha-kielbowicz.md',
+        '02-agustin-corbat.md'
+      ];
+
+      renderFunction = renderTeamMemberCard;
     } else if (type === 'home') {
       fileList = [
         '01-hero.md',
