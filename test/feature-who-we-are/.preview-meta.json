@@ -1,9 +1,0 @@
-{
-  "pr_number": 11,
-  "branch": "feature/who-we-are",
-  "branch_slug": "feature-who-we-are",
-  "timestamp": "2025-12-07 16:35:27 UTC",
-  "commit": "4b77bae59c4a5d8dee6b592130801fa1f86a5e40",
-  "pr_title": "feat: Add Who We Are team page with markdown-based content system\n",
-  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/11"
-}
