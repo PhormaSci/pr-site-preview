@@ -1,22 +1,22 @@
 ---
 type: commitment
 title: Nuestro Compromiso
-subtitle: La Triple Misión
-cta_text: Discutí tu Arquitectura
+subtitle: La Triple Misión para Elevar
+cta_text: Discuta Su Arquitectura
 cta_link: contact.html
 order: 9
 ---
 
-No reemplazamos al científico, ni interrumpimos a la industria. Los completamos.
+No solo aumentamos sus capacidades; elevamos todo su marco científico y operacional. Nuestra misión es amplificar sus fortalezas inherentes:
 
-**1. Potenciamos la Ciencia con Estructura.**
+**1. Elevando la Ciencia con Estructura Robusta.**
 
-Para el investigador, proporcionamos el rigor de software necesario para convertir una teoría en un producto y un paper en una empresa.
+Para el investigador, proporcionamos el rigor de ingeniería de software necesario para transformar teorías innovadoras en productos resilientes, y artículos impactantes en emprendimientos prósperos.
 
-**2. Potenciamos la Industria con Ciencia.**
+**2. Elevando la Industria con Visión Científica.**
 
-Para la empresa, proporcionamos la experiencia en modelado necesaria para convertir datos crudos en inteligencia y la confusión en claridad.
+Para la empresa, infundimos sus operaciones con experiencia avanzada en modelado científico, convirtiendo datos crudos y complejos en inteligencia clara y accionable, y en claridad estratégica.
 
-**3. Difundimos el Conocimiento.**
+**3. Elevando a la Comunidad a Través del Conocimiento Compartido.**
 
-Para la comunidad, brindamos educación. Creemos que la experiencia crece cuando se comparte. Estamos comprometidos a enseñar, capacitar y elevar el estándar de la computación científica.
+Para la comunidad en general, nos dedicamos a fomentar el crecimiento. Creemos que la verdadera experiencia se cultiva compartiendo, y estamos comprometidos a enseñar, capacitar y elevar colectivamente los estándares de la computación científica.

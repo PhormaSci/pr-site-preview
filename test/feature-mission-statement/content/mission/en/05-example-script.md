@@ -5,9 +5,9 @@ subtitle: Focus: Structure
 order: 5
 ---
 
-**The Problem:**
+**The Challenge:**
 
-A 5,000-line monolithic script. Great math, poor accessibility. No documentation, no tests, no version control.
+A powerful scientific script, rich in mathematical innovation, has delivered groundbreaking research results. The next step is to evolve this core logic into a production-ready system that is scalable, maintainable, and accessible for broader application.
 
 **Our Solution:**
 

@@ -5,9 +5,9 @@ subtitle: Enfoque: Estructura
 order: 5
 ---
 
-**El Problema:**
+**El Desafío:**
 
-Un script monolítico de 5.000 líneas. Matemática brillante, accesibilidad pobre. Sin documentación, sin tests, sin control de versiones.
+Un potente script científico, rico en innovación matemática, ha producido resultados de investigación revolucionarios. El siguiente paso es evolucionar esta lógica central hacia un sistema listo para producción que sea escalable, mantenible y accesible para una aplicación más amplia.
 
 **Nuestra Solución:**
 

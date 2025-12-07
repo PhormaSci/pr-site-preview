@@ -5,9 +5,9 @@ subtitle: Focus: Science
 order: 6
 ---
 
-**The Problem:**
+**The Challenge:**
 
-A company holds vast datasets or faces a complex physical constraint but lacks the specialized know-how to model it. The problem is clear, but the equation is missing.
+Your organization possesses vast, complex datasets or encounters intricate physical phenomena. The opportunity exists to derive profound insights and predictive power from this information, but requires specialized scientific modeling expertise to translate raw data into actionable intelligence.
 
 **Our Solution:**
 

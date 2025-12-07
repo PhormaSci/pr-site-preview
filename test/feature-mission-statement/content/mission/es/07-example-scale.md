@@ -5,9 +5,9 @@ subtitle: Enfoque: Infraestructura
 order: 7
 ---
 
-**El Problema:**
+**El Desafío:**
 
-Rutas de archivo locales estáticas (*hardcoded*). Bucles de un solo hilo procesando gigabytes. Simulaciones que requieren una semana para completarse.
+Las computaciones científicas y el procesamiento de datos a menudo están restringidos por infraestructuras heredadas, lo que genera cuellos de botella con grandes conjuntos de datos o simulaciones complejas. La ambición es lograr una escalabilidad rápida y elástica para manejar demandas crecientes y acelerar el descubrimiento.
 
 **Nuestra Solución:**
 

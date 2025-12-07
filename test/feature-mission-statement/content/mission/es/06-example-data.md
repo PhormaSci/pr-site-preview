@@ -5,9 +5,9 @@ subtitle: Enfoque: Ciencia
 order: 6
 ---
 
-**El Problema:**
+**El Desafío:**
 
-Una empresa posee vastos conjuntos de datos o enfrenta una restricción física compleja, pero carece del *know-how* especializado para modelarla. El problema es claro, pero falta la ecuación.
+Su organización posee vastos y complejos conjuntos de datos o se enfrenta a intrincados fenómenos físicos. Existe la oportunidad de obtener profundos conocimientos y poder predictivo de esta información, pero se requiere una experiencia especializada en modelado científico para traducir los datos brutos en inteligencia accionable.
 
 **Nuestra Solución:**
 
