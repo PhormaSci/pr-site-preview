@@ -472,7 +472,8 @@
         '01-system-audit.md',
         '02-research-software-engineering.md',
         '03-scientific-ml.md',
-        '04-performance-synthesis.md'
+        '04-performance-synthesis.md',
+        '05-bioimage-analysis.md'
       ];
 
       // Adjust filenames for Spanish
@@ -481,43 +482,47 @@
           '01-auditoria-sistema.md',
           '02-ingenieria-software-investigacion.md',
           '03-ml-cientifico.md',
-          '04-sintesis-rendimiento.md'
+          '04-sintesis-rendimiento.md',
+          '05-analisis-bioimagen.md'
         ];
       }
 
       renderFunction = renderServiceCard;
     } else if (type === 'trainees') {
-      fileList = [
-        '11-numerical-computing.md',
-        '15-high-performance-julia.md',
-        '21-generative-ai-scientific-software.md',
-        '31-sciml.md',
-        '41-production-rigor.md',
-        '42-rse-pipelines.md',
-        '43-architectural-systems.md',
-        '44-testing-practices.md',
-        '51-python-bioimage-analysis.md',
-        '52-napari-plugin-development.md',
-        '53-ai-microscopy.md'
-      ];
-
-      // Adjust filenames for Spanish
-      if (lang === 'es') {
-        fileList = [
-          '11-computacion-numerica.md',
-          '15-julia-alto-rendimiento.md',
-          '21-ia-generativa-software-cientifico.md',
-          '31-sciml.md',
-          '41-rigor-produccion.md',
-          '42-rse-pipelines.md',
-          '43-sistemas-arquitectonicos.md',
-          '44-practicas-pruebas.md',
-          '51-analisis-bioimagen-python.md',
-          '52-desarrollo-plugins-napari.md',
-          '53-ia-microscopia.md'
-        ];
-      }
-
+            fileList = [
+              '11-numerical-computing.md',
+              '15-high-performance-julia.md',
+              '21-generative-ai-scientific-software.md',
+              '31-sciml.md',
+              '41-production-rigor.md',
+              '42-rse-pipelines.md',
+              '43-architectural-systems.md',
+              '44-testing-practices.md',
+              '51-python-bioimage-analysis.md',
+              '52-napari-plugin-development.md',
+              '53-ai-microscopy.md',
+              '54-advanced-deep-learning-scientific-image-analysis.md',
+              '61-mathematical-modeling-systems-biology.md'
+            ];
+      
+            // Adjust filenames for Spanish
+            if (lang === 'es') {
+              fileList = [
+                '11-computacion-numerica.md',
+                '15-julia-alto-rendimiento.md',
+                '21-ia-generativa-software-cientifico.md',
+                '31-sciml.md',
+                '41-rigor-produccion.md',
+                '42-rse-pipelines.md',
+                '43-sistemas-arquitectonicos.md',
+                '44-practicas-pruebas.md',
+                '51-analisis-bioimagen-python.md',
+                '52-desarrollo-plugins-napari.md',
+                '53-ia-microscopia.md',
+                '54-aprendizaje-profundo-avanzado-analisis-imagenes-cientificas.md',
+                '61-modelado-matematico-biologia-sistemas.md'
+              ];
+            }
       renderFunction = renderTraineeCard;
     } else if (type === 'team') {
       fileList = [
