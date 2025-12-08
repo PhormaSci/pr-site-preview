@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conoce al equipo detrás de Phorma Scientific - expertos en sistemas cuantitativos y computación científica.">
+  <title>Quiénes Somos - Phorma Scientific</title>
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Quiénes Somos - Phorma Scientific">
+  <meta property="og:description" content="Conoce al equipo detrás de Phorma Scientific - expertos en sistemas cuantitativos y computación científica.">
+  <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
+  <meta property="og:url" content="https://phorma.sh/es/about.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Quiénes Somos - Phorma Scientific">
+  <meta name="twitter:description" content="Conoce al equipo detrás de Phorma Scientific - expertos en sistemas cuantitativos y computación científica.">
+  <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
+  <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../assets/logo.svg" alt="Phorma Scientific Logo">
+        PHORMA
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo oscuro" title="Alternar modo oscuro">
+          ◐
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Alternar navegación">
+          MENÚ
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="mission.html">MISIÓN</a></li>
+          <li><a href="services.html">SERVICIOS</a></li>
+          <li><a href="trainees.html">CAPACITACIÓN</a></li>
+          <li><a href="about.html" class="active">NOSOTROS</a></li>
+          <li><a href="contact.html">CONTACTO</a></li>
+          <li class="lang-switch"><a href="../about.html">EN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Quiénes Somos</h1>
+      <p class="hero-subtitle">
+        Una asociación de especialistas que conecta la ciencia rigurosa con la ingeniería de nivel productivo.
+      </p>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section">
+    <div class="container">
+      <div class="team-grid" id="content-container"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4 class="text-mono mb-sm">Contacto</h4>
+          <p class="footer-text">info@phorma.sh</p>
+        </div>
+        <div>
+          <p class="footer-text">&copy; 2025 Phorma Scientific</p>
+          <p class="footer-text">Estructura sobre Caos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/content-loader.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    // Load team page content
+    document.addEventListener('DOMContentLoaded', function() {
+      loadContent('team', 'es');
+    });
+  </script>
+</body>
+</html>

@@ -1,12 +1,12 @@
 ---
 type: section
 title: The Challenge
-subtitle: Immaturity
+subtitle: From Lab to Market
 order: 2
 ---
 
-Ad-hoc scientific code is often slow, non-compliant, and unmaintainable.
+Pioneering research requires agility and rapid iteration, often yielding prototypes optimized for discovery, not for production.
 
-Research teams build prototypes that work in Jupyter notebooks but fail under production constraints. Performance degrades. Numerical accuracy becomes questionable. Technical debt compounds.
+As these innovations mature, they face a new set of challenges: scaling to meet enterprise demands, ensuring compliance with industry standards, and integrating seamlessly into existing infrastructure.
 
-The gap between research and deployment widens, and innovation stalls at the prototype stage.
+This transition from a validated prototype to a production-grade asset is a natural and critical step in the innovation lifecycle. It's the moment where groundbreaking science meets the rigor of the market.

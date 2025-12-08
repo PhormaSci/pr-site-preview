@@ -6,6 +6,17 @@
   <meta name="description" content="Contact Phorma Scientific - Schedule a consultation, system audit, or workshop proposal.">
   <title>Contact - Phorma Scientific</title>
 
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Contact - Phorma Scientific">
+  <meta property="og:description" content="Contact Phorma Scientific - Schedule a consultation, system audit, or workshop proposal.">
+  <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
+  <meta property="og:url" content="https://phorma.sh/contact.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact - Phorma Scientific">
+  <meta name="twitter:description" content="Contact Phorma Scientific - Schedule a consultation, system audit, or workshop proposal.">
+  <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/logo-fondo-blanco.png">
   <link rel="apple-touch-icon" href="assets/logo-fondo-blanco.png">
@@ -36,8 +47,10 @@
       </button>
       <ul class="nav-menu" id="navMenu">
         <li><a href="index.html">HOME</a></li>
+        <li><a href="mission.html">MISSION</a></li>
         <li><a href="services.html">SERVICES</a></li>
         <li><a href="trainees.html">TRAINEES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html" class="active">CONTACT</a></li>
         <li class="lang-switch"><a href="es/contact.html">ES</a></li>
       </ul>
@@ -117,6 +130,13 @@
               <textarea id="message" name="message" class="form-input" rows="6" required></textarea>
             </div>
 
+            <div class="form-group" id="ndaCheckboxContainer" style="display: none;">
+              <label class="form-checkbox-label">
+                <input type="checkbox" id="ndaCheckbox" name="nda_agreement" value="agreed">
+                <span>I understand that this inquiry is protected by a strict non-disclosure agreement (NDA).</span>
+              </label>
+            </div>
+
             <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
           </form>
         </div>
@@ -169,5 +189,42 @@
 
   <!-- Minimal JavaScript -->
   <script src="js/main.js"></script>
+  <script>
+    // NDA checkbox logic for System Audit inquiries
+    (function() {
+      'use strict';
+
+      const inquirySelect = document.getElementById('inquiry');
+      const ndaContainer = document.getElementById('ndaCheckboxContainer');
+      const ndaCheckbox = document.getElementById('ndaCheckbox');
+      const contactForm = document.querySelector('.contact-form');
+
+      function toggleNDACheckbox() {
+        if (inquirySelect.value === 'system-audit') {
+          ndaContainer.style.display = 'block';
+          ndaCheckbox.required = true;
+        } else {
+          ndaContainer.style.display = 'none';
+          ndaCheckbox.required = false;
+          ndaCheckbox.checked = false;
+        }
+      }
+
+      // Listen for changes in inquiry type
+      inquirySelect.addEventListener('change', toggleNDACheckbox);
+
+      // Validate NDA checkbox on form submit
+      contactForm.addEventListener('submit', function(e) {
+        if (inquirySelect.value === 'system-audit' && !ndaCheckbox.checked) {
+          e.preventDefault();
+          alert('Please agree to the NDA to proceed with a System Audit inquiry.');
+          ndaCheckbox.focus();
+        }
+      });
+
+      // Check on page load
+      toggleNDACheckbox();
+    })();
+  </script>
 </body>
 </html>

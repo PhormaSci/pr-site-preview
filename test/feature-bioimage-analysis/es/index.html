@@ -6,6 +6,17 @@
   <meta name="description" content="Phorma Scientific - Transformando la complejidad científica en sistemas de producción. Rigor. Rendimiento. Arquitectura.">
   <title>Phorma Scientific - Estructura sobre el Caos</title>
 
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Phorma Scientific - Estructura sobre el Caos">
+  <meta property="og:description" content="Phorma Scientific - Transformando la complejidad científica en sistemas de producción. Rigor. Rendimiento. Arquitectura.">
+  <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
+  <meta property="og:url" content="https://phorma.sh/es/index.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Phorma Scientific - Estructura sobre el Caos">
+  <meta name="twitter:description" content="Phorma Scientific - Transformando la complejidad científica en sistemas de producción. Rigor. Rendimiento. Arquitectura.">
+  <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
   <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
@@ -36,8 +47,10 @@
       </button>
       <ul class="nav-menu" id="navMenu">
         <li><a href="index.html" class="active">INICIO</a></li>
+        <li><a href="mission.html">MISIÓN</a></li>
         <li><a href="services.html">SERVICIOS</a></li>
         <li><a href="trainees.html">CAPACITACIÓN</a></li>
+        <li><a href="about.html">NOSOTROS</a></li>
         <li><a href="contact.html">CONTACTO</a></li>
         <li class="lang-switch"><a href="../index.html">EN</a></li>
       </ul>
@@ -83,7 +96,9 @@
   <script src="../js/main.js"></script>
   <script>
     // Load home page content
-    loadContent('home', 'es');
+    document.addEventListener('DOMContentLoaded', function() {
+      loadContent('home', 'es');
+    });
   </script>
 </body>
 </html>

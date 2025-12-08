@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Phorma Scientific Services - System Audits, Research Software Engineering, Scientific ML, and Performance Optimization.">
-  <title>Services - Phorma Scientific</title>
+  <meta name="description" content="Meet the team behind Phorma Scientific - experts in quantitative systems and scientific computing.">
+  <title>Who We Are - Phorma Scientific</title>
 
   <!-- Social Media Meta Tags -->
-  <meta property="og:title" content="Services - Phorma Scientific">
-  <meta property="og:description" content="Phorma Scientific Services - System Audits, Research Software Engineering, Scientific ML, and Performance Optimization.">
+  <meta property="og:title" content="Who We Are - Phorma Scientific">
+  <meta property="og:description" content="Meet the team behind Phorma Scientific - experts in quantitative systems and scientific computing.">
   <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
-  <meta property="og:url" content="https://phorma.sh/services.html">
+  <meta property="og:url" content="https://phorma.sh/about.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Services - Phorma Scientific">
-  <meta name="twitter:description" content="Phorma Scientific Services - System Audits, Research Software Engineering, Scientific ML, and Performance Optimization.">
+  <meta name="twitter:title" content="Who We Are - Phorma Scientific">
+  <meta name="twitter:description" content="Meet the team behind Phorma Scientific - experts in quantitative systems and scientific computing.">
   <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
 
   <!-- Favicon -->
@@ -48,38 +48,30 @@
         <ul class="nav-menu" id="navMenu">
           <li><a href="index.html">HOME</a></li>
           <li><a href="mission.html">MISSION</a></li>
-          <li><a href="services.html" class="active">SERVICES</a></li>
+          <li><a href="services.html">SERVICES</a></li>
           <li><a href="trainees.html">TRAINEES</a></li>
-          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="about.html" class="active">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
-          <li class="lang-switch"><a href="es/services.html">ES</a></li>
+          <li class="lang-switch"><a href="es/about.html">ES</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page Header -->
-  <section class="section border-bottom">
-    <div class="container text-center">
-      <h1>Services</h1>
-      <p class="hero-subheading">Precision-engineered solutions for scientific computing challenges.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Who We Are</h1>
+      <p class="hero-subtitle">
+        A partnership of specialists bridging rigorous science and production-grade engineering.
+      </p>
     </div>
   </section>
 
-  <!-- Services Grid -->
+  <!-- Team Section -->
   <section class="section">
     <div class="container">
-      <div class="grid grid-2" id="content-container">
-        <!-- Content loaded dynamically from markdown files -->
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="section border-top">
-    <div class="container text-center">
-      <h2 class="mb-md">Ready to transform your scientific computing infrastructure?</h2>
-      <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+      <div class="team-grid" id="content-container"></div>
     </div>
   </section>
 
@@ -99,13 +91,13 @@
     </div>
   </footer>
 
-  <!-- Minimal JavaScript -->
-  <script src="js/main.js"></script>
+  <!-- JavaScript -->
   <script src="js/content-loader.js"></script>
+  <script src="js/main.js"></script>
   <script>
-    // Load services content on page load
+    // Load team page content
     document.addEventListener('DOMContentLoaded', function() {
-      loadContent('services', 'en');
+      loadContent('team', 'en');
     });
   </script>
 </body>

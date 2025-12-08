@@ -3,15 +3,15 @@ title: Production Rigor
 meta: Best Practices
 category: Software Engineering
 order: 41
-duration: 3 days
-format: Workshop + Code Review Sessions
-prerequisites: Existing codebase to refactor
-outcome: Automated testing pipelines and deployable scientific software.
+duration: 1 day
+format: Workshop + Hands-on Practice
+prerequisites: Basic familiarity with version control
+outcome: Professional Git workflows and collaboration standards for scientific teams.
 ---
 
-Transform research workflows into production-grade systems with modern software engineering practices.
+Level up your research code collaboration with industry-standard version control practices.
 
-- Test-driven development (TDD)
-- Continuous integration & deployment (CI/CD)
-- Git workflows & version control
-- Code review & collaboration standards
+- Advanced Git workflows (branching, merging, rebasing)
+- Code review best practices & pull request etiquette
+- Collaborative development standards
+- Basic CI/CD concepts for scientific software

@@ -6,6 +6,17 @@
   <meta name="description" content="Phorma Scientific - Transforming scientific complexity into production-grade systems. Rigor. Performance. Architecture.">
   <title>Phorma Scientific - Structure over Chaos</title>
 
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Phorma Scientific - Structure over Chaos">
+  <meta property="og:description" content="Phorma Scientific - Transforming scientific complexity into production-grade systems. Rigor. Performance. Architecture.">
+  <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
+  <meta property="og:url" content="https://phorma.sh/index.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Phorma Scientific - Structure over Chaos">
+  <meta name="twitter:description" content="Phorma Scientific - Transforming scientific complexity into production-grade systems. Rigor. Performance. Architecture.">
+  <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/logo-fondo-blanco.png">
   <link rel="apple-touch-icon" href="assets/logo-fondo-blanco.png">
@@ -36,8 +47,10 @@
         </button>
         <ul class="nav-menu" id="navMenu">
           <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="mission.html">MISSION</a></li>
           <li><a href="services.html">SERVICES</a></li>
           <li><a href="trainees.html">TRAINEES</a></li>
+          <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li class="lang-switch"><a href="es/index.html">ES</a></li>
         </ul>
@@ -83,7 +96,9 @@
   <script src="js/main.js"></script>
   <script>
     // Load home page content
-    loadContent('home', 'en');
+    document.addEventListener('DOMContentLoaded', function() {
+      loadContent('home', 'en');
+    });
   </script>
 </body>
 </html>
