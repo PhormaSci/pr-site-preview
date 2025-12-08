@@ -11,7 +11,7 @@ Su organización posee vastos y complejos conjuntos de datos o se enfrenta a int
 
 **Nuestra Solución:**
 
-Operacionalizamos la teoría científica. Aplicamos técnicas de modelado rigurosas a datos industriales no estructurados, construyendo el motor computacional requerido para extraer información precisa de entradas crudas.
+Operacionalizamos la teoría científica. Aplicamos técnicas de modelado rigurosas, desde simulaciones basadas en la física hasta el aprendizaje profundo en bioimágenes, a datos industriales no estructurados, construyendo el motor computacional requerido para extraer información precisa de las entradas sin procesar.
 
 **El Resultado:**
 

@@ -17,6 +17,7 @@ Interdisciplinary physicist with medical background specializing in extracting q
 - Microscopy techniques (fluorescence, optical, electron)
 - Cell signaling and systems biology
 - Agricultural phenotyping and pattern recognition
+- Automated microscopy and high-content screening analysis
 
 ---
 

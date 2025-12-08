@@ -23,6 +23,7 @@ Mercado Libre (la plataforma de e-commerce más grande de América Latina)
 - Sistemas de pricing y analítica de riesgo multi-activo
 - Ingeniería de Software de Investigación (RSE) y optimización numérica
 - Computación de alto rendimiento (Julia, Python, C#)
+- Machine Learning Científico (SciML)
 - Arquitectura de sistemas y DevOps
 - Desarrollo de lenguajes específicos de dominio
 

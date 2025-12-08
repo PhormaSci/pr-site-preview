@@ -23,6 +23,7 @@ Mercado Libre (Latin America's largest e-commerce platform)
 - Multi-asset pricing and risk analytics systems
 - Research Software Engineering (RSE) and numerical optimization
 - High-performance computing (Julia, Python, C#)
+- Scientific Machine Learning (SciML)
 - System architecture and DevOps
 - Domain-Specific Language development
 

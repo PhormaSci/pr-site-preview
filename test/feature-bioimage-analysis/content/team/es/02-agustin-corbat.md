@@ -17,6 +17,7 @@ Físico interdisciplinario con formación médica especializado en extraer insig
 - Técnicas de microscopía (fluorescencia, óptica, electrónica)
 - Señalización celular y biología de sistemas
 - Fenotipado agrícola y reconocimiento de patrones
+- Microscopía automatizada y análisis de high-content screening
 
 ---
 

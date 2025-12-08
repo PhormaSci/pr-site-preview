@@ -7,6 +7,6 @@ order: 3
 
 We partner with you to elevate your scientific breakthroughs from the lab to the market.
 
-Our expertise lies in transforming validated research into robust, scalable, and production-ready assets. We don't just build code; we build the bridge between your science and its real-world impact.
+Our expertise lies in transforming validated research into robust, scalable, and production-ready assets. We don't just build code; we build the bridge between your science and its real-world impact. Whether it's transforming raw microscopy images into diagnostic insights or scaling financial models for enterprise use, we build the bridge. Whether it's transforming raw microscopy images into diagnostic insights or scaling financial models for enterprise use, we build the bridge.
 
 By implementing best-in-class engineering, we amplify the value of your research, ensuring it performs with precision, scales on demand, and stands the test of time. Every system we deliver is a testament to the power of your innovation, fortified with our commitment to rigor and quality.

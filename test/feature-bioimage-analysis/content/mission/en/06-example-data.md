@@ -11,7 +11,7 @@ Your organization possesses vast, complex datasets or encounters intricate physi
 
 **Our Solution:**
 
-We operationalize scientific theory. We apply rigorous modeling techniques to unstructured industry data, building the computational engine required to extract precise information from raw inputs.
+We operationalize scientific theory. We apply rigorous modeling techniques—from physics-based simulations to deep learning on bio-images—to unstructured industry data, building the computational engine required to extract precise information from raw inputs.
 
 **The Outcome:**
 
