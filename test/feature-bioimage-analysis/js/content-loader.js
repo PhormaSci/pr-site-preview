@@ -473,7 +473,10 @@
         '02-research-software-engineering.md',
         '03-scientific-ml.md',
         '04-performance-synthesis.md',
-        '05-bioimage-analysis.md'
+        '05-bioimage-analysis.md',
+        '06-medical-image-analysis.md',
+        '07-agricultural-image-analysis.md',
+        '08-petrographic-image-analysis.md'
       ];
 
       // Adjust filenames for Spanish
@@ -483,7 +486,10 @@
           '02-ingenieria-software-investigacion.md',
           '03-ml-cientifico.md',
           '04-sintesis-rendimiento.md',
-          '05-analisis-bioimagen.md'
+          '05-analisis-bioimagen.md',
+          '06-analisis-imagenes-medicas.md',
+          '07-analisis-imagenes-agricolas.md',
+          '08-analisis-imagenes-petrograficas.md'
         ];
       }
 
