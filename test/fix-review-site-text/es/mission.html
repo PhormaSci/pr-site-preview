@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Misión de Phorma Scientific - Transformando prototipos científicos en sistemas de producción para startups de deep tech.">
+  <title>Misión - Phorma Scientific</title>
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Misión - Phorma Scientific">
+  <meta property="og:description" content="Misión de Phorma Scientific - Transformando prototipos científicos en sistemas de producción para startups de deep tech.">
+  <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
+  <meta property="og:url" content="https://phorma.sh/es/mission.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Misión - Phorma Scientific">
+  <meta name="twitter:description" content="Misión de Phorma Scientific - Transformando prototipos científicos en sistemas de producción para startups de deep tech.">
+  <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
+  <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../assets/logo.svg" alt="Phorma Scientific Logo">
+        PHORMA
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          ◐
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          MENÚ
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="mission.html" class="active">MISIÓN</a></li>
+          <li><a href="services.html">SERVICIOS</a></li>
+          <li><a href="trainees.html">CAPACITACIÓN</a></li>
+          <li><a href="about.html">NOSOTROS</a></li>
+          <li><a href="contact.html">CONTACTO</a></li>
+          <li class="lang-switch"><a href="../mission.html">EN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mission Content -->
+  <div id="content-container">
+    <!-- Content loaded dynamically from markdown files -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4 class="text-mono mb-sm">Contacto</h4>
+          <p class="footer-text">info@phorma.sh</p>
+        </div>
+        <div>
+          <p class="footer-text">&copy; 2025 Phorma Scientific</p>
+          <p class="footer-text">Estructura sobre el Caos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JavaScript -->
+  <script src="../js/main.js"></script>
+  <script src="../js/content-loader.js?v=2"></script>
+  <script>
+    // Load mission content on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      loadContent('mission', 'es');
+    });
+  </script>
+</body>
+</html>
