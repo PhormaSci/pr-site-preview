@@ -15,4 +15,4 @@ Our solutions provide growers and researchers with actionable data to optimize c
 
 ---
 
-**Stack:** `Python` `OpenCV` `Scikit-Image` `Pytorch`
+**Stack:** `Python` `OpenCV` `Scikit-Image` `PyTorch`

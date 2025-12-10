@@ -15,4 +15,4 @@ Nuestras soluciones proporcionan a los agricultores e investigadores datos proce
 
 ---
 
-**Stack:** `Python` `OpenCV` `Scikit-Image` `Pytorch`
+**Stack:** `Python` `OpenCV` `Scikit-Image` `PyTorch`
