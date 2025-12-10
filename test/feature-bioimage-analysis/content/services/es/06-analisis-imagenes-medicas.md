@@ -4,7 +4,7 @@ title: Análisis de Imágenes Médicas
 order: 6
 ---
 
-**Foco:** Cuantificación de características celulares en histopatología y automatización del análisis para aplicaciones de diagnóstico e investigación.
+**Foco:** Análisis de imágenes multimodales que abarca desde la cuantificación celular en histopatología hasta la segmentación volumétrica en resonancia magnética.
 
 Desarrollamos modelos de aprendizaje profundo personalizados y pipelines de análisis de imágenes para extraer información crítica de imágenes médicas, apoyando la investigación clínica y los flujos de trabajo de diagnóstico.
 
@@ -15,4 +15,4 @@ Desarrollamos modelos de aprendizaje profundo personalizados y pipelines de aná
 
 ---
 
-**Stack:** `Python` `PyTorch` `MONAI` `OpenCV`
+**Stack:** `Python` `PyTorch` `MONAI` `OpenCV` `QuPath`

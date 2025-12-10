@@ -4,7 +4,7 @@ title: Análisis de Imágenes Agrícolas
 order: 7
 ---
 
-**Foco:** Evaluación de la salud de los cultivos, análisis de sistemas radiculares y fenotipado a partir de imágenes de drones y microscopía.
+**Foco:** Evaluación de la salud de los cultivos, análisis de sistemas radiculares y fenotipado a partir de imágenes de drones, microscopía y satélites.
 
 Nuestras soluciones proporcionan a los agricultores e investigadores datos procesables para optimizar el manejo de cultivos, los programas de mejoramiento y la investigación agrícola.
 

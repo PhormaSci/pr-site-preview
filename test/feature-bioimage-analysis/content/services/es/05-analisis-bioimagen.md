@@ -6,7 +6,7 @@ order: 5
 
 **Foco:** Extracción de insights cuantitativos a partir de datos complejos de imágenes biológicas y médicas.
 
-Ofrecemos soluciones integrales para el análisis de bioimágenes, desde el diseño experimental hasta modelos personalizados de aprendizaje profundo y la interpretación de datos.
+Ofrecemos soluciones integrales para el análisis de bioimágenes, desde el diseño experimental hasta modelos personalizados de aprendizaje profundo y la interpretación de datos. Nuestra experiencia radica en transformar datos crudos en una interpretación accionable.
 
 - Procesamiento y Segmentación Avanzada de Imágenes
 - Deep Learning Personalizado para Bioimágenes (PyTorch, CellPose)
@@ -15,4 +15,4 @@ Ofrecemos soluciones integrales para el análisis de bioimágenes, desde el dise
 
 ---
 
-**Stack:** `Python` `PyTorch` `Napari`
+**Stack:** `Python` `PyTorch` `Napari` `FIJI` `QuPath`

@@ -6,7 +6,7 @@ order: 8
 
 **Foco:** Caracterización de redes de poros y cuantificación de la composición mineral y estructuras de grano en secciones delgadas de roca.
 
-Ofrecemos análisis precisos y automatizados de muestras geológicas, mejorando la caracterización de yacimientos, la exploración de minerales y la investigación en ciencia de materiales.
+Desarrollamos pipelines de análisis precisos y automatizados de muestras geológicas, mejorando la caracterización de yacimientos, la exploración de minerales y la investigación en ciencia de materiales.
 
 - Análisis de porosidad y permeabilidad
 - Segmentación y cuantificación de fases minerales

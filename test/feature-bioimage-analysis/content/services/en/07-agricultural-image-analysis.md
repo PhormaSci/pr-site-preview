@@ -4,7 +4,7 @@ title: Agricultural Image Analysis
 order: 7
 ---
 
-**Focus:** Assessing crop health, analyzing root systems, and phenotyping from drone and microscopic imagery.
+**Focus:** Assessing crop health, analyzing root systems, and phenotyping from drone, microscopic and satellite imagery.
 
 Our solutions provide growers and researchers with actionable data to optimize crop management, breeding programs, and agricultural research.
 

@@ -4,7 +4,7 @@ title: Medical Image Analysis
 order: 6
 ---
 
-**Focus:** Quantifying cellular features in histopathology and automating analysis for diagnostic and research applications.
+**Focus:** Multi-modal image analysis ranging from cellular quantification in histopathology to volumetric segmentation in Magnetic Resonance Imaging.
 
 We develop custom deep learning models and image analysis pipelines to extract critical information from medical images, supporting clinical research and diagnostic workflows.
 
@@ -15,4 +15,4 @@ We develop custom deep learning models and image analysis pipelines to extract c
 
 ---
 
-**Stack:** `Python` `PyTorch` `MONAI` `OpenCV`
+**Stack:** `Python` `PyTorch` `MONAI` `OpenCV` `QuPath`
