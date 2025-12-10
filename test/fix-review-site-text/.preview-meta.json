@@ -1,9 +1,0 @@
-{
-  "pr_number": 16,
-  "branch": "fix/review-site-text",
-  "branch_slug": "fix-review-site-text",
-  "timestamp": "2025-12-10 23:54:39 UTC",
-  "commit": "1bf75353c5a6cf35a3ab06cf49cc1062d49993dd",
-  "pr_title": "fix: Remove duplicate sentence and fix inconsistent Spanish tagline\n",
-  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/16"
-}
