@@ -1,9 +1,0 @@
-{
-  "pr_number": 21,
-  "branch": "fix/site-improvements",
-  "branch_slug": "fix-site-improvements",
-  "timestamp": "2025-12-18 01:39:44 UTC",
-  "commit": "75368ebb54251db2fafa14761657cd8e536d2c23",
-  "pr_title": "fix: site improvements and consistency fixes\n",
-  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/21"
-}
