@@ -5,7 +5,7 @@ order: 2
 category: Ingeniería de Software de Investigación
 ---
 
-**Enfoque:** Implementación de rigor computacional, estándares de reproducibilidad y arquitectura desacoplada.
+**Objetivo:** Implementación de rigor computacional, estándares de reproducibilidad y arquitectura desacoplada.
 
 Transformamos prototipos de investigación en sistemas de software mantenibles, probados y escalables que cumplen con estándares de producción empresarial.
 

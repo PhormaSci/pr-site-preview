@@ -5,7 +5,7 @@ order: 4
 category: Pipeline Design & Development
 ---
 
-**Focus:** Operationalizing novel models from R&D into scalable, auditable enterprise platforms.
+**Goal:** Operationalizing novel models from R&D into scalable, auditable enterprise platforms.
 
 We specialize in integrating physics-informed neural networks, differential equation solvers, and ML models with domain-specific constraints into production systems.
 

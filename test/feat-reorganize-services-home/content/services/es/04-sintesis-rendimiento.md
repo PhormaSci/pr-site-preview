@@ -5,7 +5,7 @@ order: 3
 category: Ingeniería de Software de Investigación
 ---
 
-**Enfoque:** Optimización, ajuste de compilador y computación paralela.
+**Objetivo:** Optimización, ajuste de compilador y computación paralela.
 
 Diseñamos optimizaciones algorítmicas y a nivel de sistema que entregan mejoras de rendimiento medibles y con benchmarks.
 

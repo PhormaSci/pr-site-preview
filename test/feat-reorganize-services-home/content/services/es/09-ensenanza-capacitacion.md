@@ -5,7 +5,7 @@ order: 9
 category: Enseñanza y Capacitación
 ---
 
-**Enfoque:** Empodere a su equipo con habilidades operacionales y prácticas de desarrollo modernas.
+**Objetivo:** Empodere a su equipo con habilidades operacionales y prácticas de desarrollo modernas.
 
 Ofrecemos programas de capacitación integrales diseñados para cerrar la brecha entre código académico y estándares de la industria.
 
@@ -15,4 +15,4 @@ Ofrecemos programas de capacitación integrales diseñados para cerrar la brecha
 
 ---
 
-**Explore todos los programas de capacitación:** <a href="trainees.html">Ver Página de Capacitación →</a>
+**Entregable:** Un plan de estudios de capacitación personalizado y sesiones grabadas para su equipo.

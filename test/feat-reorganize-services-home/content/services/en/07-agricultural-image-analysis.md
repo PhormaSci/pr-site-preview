@@ -5,7 +5,7 @@ order: 7
 category: Pipeline Design & Development
 ---
 
-**Focus:** Assessing crop health, analyzing root systems, and phenotyping from drone, microscopic and satellite imagery.
+**Goal:** Assessing crop health, analyzing root systems, and phenotyping from drone, microscopic and satellite imagery.
 
 Our solutions provide growers and researchers with actionable data to optimize crop management, breeding programs, and agricultural research.
 

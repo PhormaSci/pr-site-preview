@@ -5,7 +5,7 @@ order: 6
 category: Pipeline Design & Development
 ---
 
-**Focus:** Multi-modal image analysis ranging from cellular quantification in histopathology to volumetric segmentation in Magnetic Resonance Imaging.
+**Goal:** Multi-modal image analysis ranging from cellular quantification in histopathology to volumetric segmentation in Magnetic Resonance Imaging.
 
 We develop custom deep learning models and image analysis pipelines to extract critical information from medical images, supporting clinical research and diagnostic workflows.
 

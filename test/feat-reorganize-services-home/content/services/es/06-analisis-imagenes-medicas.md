@@ -5,7 +5,7 @@ order: 6
 category: Diseño y Desarrollo de Pipelines
 ---
 
-**Foco:** Análisis de imágenes multimodales que abarca desde la cuantificación celular en histopatología hasta la segmentación volumétrica en resonancia magnética.
+**Objetivo:** Análisis de imágenes multimodales que abarca desde la cuantificación celular en histopatología hasta la segmentación volumétrica en resonancia magnética.
 
 Desarrollamos modelos de aprendizaje profundo personalizados y pipelines de análisis de imágenes para extraer información crítica de imágenes médicas, apoyando la investigación clínica y los flujos de trabajo de diagnóstico.
 

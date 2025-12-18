@@ -5,7 +5,7 @@ order: 5
 category: Pipeline Design & Development
 ---
 
-**Focus:** Extracting quantitative insights from complex biological and medical imaging data.
+**Goal:** Extracting quantitative insights from complex biological and medical imaging data.
 
 We provide end-to-end solutions for bioimage analysis, from experimental design to custom deep learning models and data interpretation. Our expertise bridges the gap between raw data and actionable biological insights.
 

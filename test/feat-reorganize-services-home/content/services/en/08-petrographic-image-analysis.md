@@ -5,7 +5,7 @@ order: 8
 category: Pipeline Design & Development
 ---
 
-**Focus:** Characterizing pore networks and quantifying mineral composition and grain structures in rock thin sections.
+**Goal:** Characterizing pore networks and quantifying mineral composition and grain structures in rock thin sections.
 
 We develop automated analysis workflows of geological samples, enhancing reservoir characterization, mineral exploration, and materials science research.
 

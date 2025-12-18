@@ -5,7 +5,7 @@ order: 2
 category: Research Software Engineering
 ---
 
-**Focus:** Implementation of computational rigor, reproducibility standards, and decoupled architecture.
+**Goal:** Implementation of computational rigor, reproducibility standards, and decoupled architecture.
 
 We transform research prototypes into maintainable, tested, and scalable software systems that meet enterprise production standards.
 

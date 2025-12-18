@@ -5,7 +5,7 @@ order: 8
 category: Diseño y Desarrollo de Pipelines
 ---
 
-**Foco:** Caracterización de redes de poros y cuantificación de la composición mineral y estructuras de grano en secciones delgadas de roca.
+**Objetivo:** Caracterización de redes de poros y cuantificación de la composición mineral y estructuras de grano en secciones delgadas de roca.
 
 Desarrollamos pipelines de análisis precisos y automatizados de muestras geológicas, mejorando la caracterización de yacimientos, la exploración de minerales y la investigación en ciencia de materiales.
 
