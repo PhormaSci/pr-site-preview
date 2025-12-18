@@ -5,7 +5,7 @@ order: 9
 category: Teaching & Training
 ---
 
-**Goal:** Empower your team with operational skills and modern development practices.
+**Focus:** Empower your team with operational skills and modern development practices.
 
 We offer comprehensive training programs designed to bridge the gap between academic code and industry standards.
 
@@ -15,4 +15,4 @@ We offer comprehensive training programs designed to bridge the gap between acad
 
 ---
 
-**Deliverable:** A customized training curriculum and recorded sessions for your team.
+**Explore all training programs:** <a href="trainees.html">View Trainees Page →</a>
