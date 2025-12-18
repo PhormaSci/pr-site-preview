@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactar Phorma Scientific - Solicite una consultoría, auditoría de sistema o propuesta de taller.">
+  <title>Contacto - Phorma Scientific</title>
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Contacto - Phorma Scientific">
+  <meta property="og:description" content="Contactar Phorma Scientific - Solicite una consultoría, auditoría de sistema o propuesta de taller.">
+  <meta property="og:image" content="https://phorma.sh/assets/logo-fondo.png">
+  <meta property="og:url" content="https://phorma.sh/es/contact.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contacto - Phorma Scientific">
+  <meta name="twitter:description" content="Contactar Phorma Scientific - Solicite una consultoría, auditoría de sistema o propuesta de taller.">
+  <meta name="twitter:image" content="https://phorma.sh/assets/logo-fondo.png">
+
+  <!-- SEO: Canonical and Language Alternates -->
+  <link rel="canonical" href="https://phorma.sh/es/contact">
+  <link rel="alternate" hreflang="en" href="https://phorma.sh/contact">
+  <link rel="alternate" hreflang="es" href="https://phorma.sh/es/contact">
+  <link rel="alternate" hreflang="x-default" href="https://phorma.sh/contact">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/logo-fondo-blanco.png">
+  <link rel="apple-touch-icon" href="../assets/logo-fondo-blanco.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../assets/logo.svg" alt="Phorma Scientific Logo">
+        PHORMA
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-sm);">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          ◐
+        </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        MENÚ
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="mission.html">MISIÓN</a></li>
+        <li><a href="services.html">SERVICIOS</a></li>
+        <li><a href="trainees.html">CAPACITACIÓN</a></li>
+        <li><a href="about.html">NOSOTROS</a></li>
+        <li><a href="contact.html" class="active">CONTACTO</a></li>
+        <li class="lang-switch"><a href="../contact.html">EN</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section border-bottom">
+    <div class="container text-center">
+      <h1>Contacto</h1>
+      <p class="hero-subheading">Transforme su infraestructura de computación científica.</p>
+    </div>
+  </section>
+
+  <!-- Contact Info Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+
+        <!-- Left Column: Contact Information -->
+        <div>
+          <h2 class="text-mono mb-lg">Póngase en Contacto</h2>
+
+          <div class="mb-xl">
+            <h3 class="text-mono" style="font-size: 1rem; margin-bottom: 0.5rem;">Email</h3>
+            <p style="font-size: 1.5rem; font-family: var(--font-mono);">
+              <a href="mailto:info@phorma.sh" style="border-bottom: 2px solid var(--color-black);">info@phorma.sh</a>
+            </p>
+          </div>
+
+          <div class="mb-xl">
+            <h3 class="text-mono" style="font-size: 1rem; margin-bottom: 0.5rem;">Tiempo de Respuesta</h3>
+            <p>Respondemos a todas las consultas dentro de las 24 horas.</p>
+          </div>
+
+          <div class="mb-xl">
+            <h3 class="text-mono" style="font-size: 1rem; margin-bottom: 0.5rem;">Horario de Oficina</h3>
+            <p>Lunes - Viernes, 9:00 AM - 6:00 PM (UTC-3)</p>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div>
+          <h3 class="text-mono mb-md">Enviar Mensaje</h3>
+
+          <form class="contact-form" action="https://formspree.io/f/xwpdypzp" method="POST">
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="company" class="form-label">Empresa / Organización</label>
+              <input type="text" id="company" name="company" class="form-input">
+            </div>
+
+            <div class="form-group">
+              <label for="inquiry" class="form-label">Tipo de Consulta</label>
+              <select id="inquiry" name="inquiry" class="form-input">
+                <option value="system-audit">Auditoría de Sistema y Arquitectura</option>
+                <option value="rse">Ingeniería de Software de Investigación</option>
+                <option value="sciml">Machine Learning Científico</option>
+                <option value="performance">Síntesis de Rendimiento</option>
+                <option value="workshop">Taller Corporativo</option>
+                <option value="other">Consulta General</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea id="message" name="message" class="form-input" rows="6" required></textarea>
+            </div>
+
+            <div class="form-group" id="ndaCheckboxContainer" style="display: none;">
+              <label class="form-checkbox-label">
+                <input type="checkbox" id="ndaCheckbox" name="nda_agreement" value="agreed">
+                <span>Entiendo que esta consulta está protegida por un acuerdo de confidencialidad (NDA) estricto.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensaje</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links Section -->
+  <section class="section border-top">
+    <div class="container">
+      <h3 class="text-mono text-center mb-lg">Acciones Rápidas</h3>
+      <div class="grid grid-3">
+        <div class="card">
+          <h4 class="card-title">Auditoría de Sistema</h4>
+          <p>Solicite una auditoría exhaustiva de su infraestructura de computación científica.</p>
+          <a href="mailto:info@phorma.sh?subject=Solicitud%20de%20Auditoría%20de%20Sistema" class="btn" style="margin-top: 1rem; width: 100%;">Solicitar Auditoría</a>
+        </div>
+
+        <div class="card">
+          <h4 class="card-title">Propuesta de Taller</h4>
+          <p>Solicite un programa de capacitación personalizado para su equipo de I+D.</p>
+          <a href="mailto:info@phorma.sh?subject=Solicitud%20de%20Propuesta%20de%20Taller" class="btn" style="margin-top: 1rem; width: 100%;">Solicitar Propuesta</a>
+        </div>
+
+        <div class="card">
+          <h4 class="card-title">Consultoría</h4>
+          <p>Agende una consultoría gratuita de 30 minutos para discutir sus necesidades.</p>
+          <a href="mailto:info@phorma.sh?subject=Solicitud%20de%20Consultoría" class="btn" style="margin-top: 1rem; width: 100%;">Agendar Llamada</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4 class="text-mono mb-sm">Contacto</h4>
+          <p class="footer-text">info@phorma.sh</p>
+        </div>
+        <div>
+          <p class="footer-text">&copy; 2025 Phorma Scientific</p>
+          <p class="footer-text">Estructura sobre el Caos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JavaScript -->
+  <script src="../js/main.js"></script>
+  <script>
+    // NDA checkbox logic for System Audit inquiries
+    (function() {
+      'use strict';
+
+      const inquirySelect = document.getElementById('inquiry');
+      const ndaContainer = document.getElementById('ndaCheckboxContainer');
+      const ndaCheckbox = document.getElementById('ndaCheckbox');
+      const contactForm = document.querySelector('.contact-form');
+
+      function toggleNDACheckbox() {
+        if (inquirySelect.value === 'system-audit') {
+          ndaContainer.style.display = 'block';
+          ndaCheckbox.required = true;
+        } else {
+          ndaContainer.style.display = 'none';
+          ndaCheckbox.required = false;
+          ndaCheckbox.checked = false;
+        }
+      }
+
+      // Listen for changes in inquiry type
+      inquirySelect.addEventListener('change', toggleNDACheckbox);
+
+      // Validate NDA checkbox on form submit
+      contactForm.addEventListener('submit', function(e) {
+        if (inquirySelect.value === 'system-audit' && !ndaCheckbox.checked) {
+          e.preventDefault();
+          alert('Por favor acepte el NDA para proceder con una consulta de Auditoría de Sistema.');
+          ndaCheckbox.focus();
+        }
+      });
+
+      // Check on page load
+      toggleNDACheckbox();
+    })();
+  </script>
+</body>
+</html>
