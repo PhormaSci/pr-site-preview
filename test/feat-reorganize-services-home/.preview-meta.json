@@ -1,0 +1,9 @@
+{
+  "pr_number": 19,
+  "branch": "feat/reorganize-services-home",
+  "branch_slug": "feat-reorganize-services-home",
+  "timestamp": "2025-12-18 00:56:31 UTC",
+  "commit": "ee387d6e39e0080ee8b30e0c2c986ca74307ad0f",
+  "pr_title": "feat: Organize services page into categories\n",
+  "pr_url": "https://github.com/PhormaSci/phormasci.github.io/pull/19"
+}
