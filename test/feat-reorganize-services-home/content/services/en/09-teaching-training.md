@@ -5,7 +5,7 @@ order: 9
 category: Teaching & Training
 ---
 
-**Focus:** Empower your team with operational skills and modern development practices.
+**Goal:** Empower your team with operational skills and modern development practices.
 
 We offer comprehensive training programs designed to bridge the gap between academic code and industry standards.
 
