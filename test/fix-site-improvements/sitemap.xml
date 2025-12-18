@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- English Pages -->
+  <url>
+    <loc>https://phorma.sh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/mission</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/mission"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/mission"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/mission"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/services"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/trainees</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/trainees"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/trainees"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/trainees"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Spanish Pages -->
+  <url>
+    <loc>https://phorma.sh/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/es/mission</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/mission"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/mission"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/mission"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/es/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/services"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/es/trainees</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/trainees"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/trainees"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/trainees"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://phorma.sh/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://phorma.sh/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://phorma.sh/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://phorma.sh/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>

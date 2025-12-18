@@ -1,0 +1,12 @@
+# Phorma Scientific - robots.txt
+# https://phorma.sh
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://phorma.sh/sitemap.xml
+
+# Disallow development/internal paths (if any)
+Disallow: /.git/
+Disallow: /scripts/
